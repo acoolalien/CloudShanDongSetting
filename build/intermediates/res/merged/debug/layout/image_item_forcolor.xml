@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/devicedetail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+        >
+        <TextView 
+            android:id="@+id/item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="77dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="60dp"
+           android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            />
+        <ImageView 
+            android:id="@+id/page_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_name"
+            android:src="@drawable/page_left"
+            android:layout_marginLeft="200dp"
+            />
+        <TextView 
+            android:id="@+id/item_setting"
+            android:layout_width="200dp"
+            android:layout_height="77dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_38"
+            android:layout_toRightOf="@+id/page_left"
+            />
+        <ImageView
+            android:id="@+id/page_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" 
+            android:src="@drawable/page_right"
+            android:layout_toRightOf="@+id/item_setting"
+            />
+        
+        
+</RelativeLayout>
+
+
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/image_item_forcolor.xml -->

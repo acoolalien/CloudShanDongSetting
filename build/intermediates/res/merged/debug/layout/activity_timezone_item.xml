@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/devicedetail"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="horizontal" >
+    
+    <TextView
+        android:id="@+id/infoitem"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_item1_height"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="60dp"
+        android:textColor="@color/grey5_color"
+        android:textSize="@dimen/text_size_38"
+        />
+    
+    </RelativeLayout><!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/activity_timezone_item.xml -->

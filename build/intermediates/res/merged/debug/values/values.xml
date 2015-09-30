@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/D:/androidspace/CloudShanDongSetting/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="allow_or_not">
+        <item>@string/allow</item>
+        <item>@string/not_allow</item>
+    </string-array>
+    <string-array name="can_see_or_not">
+        <item>@string/can_see</item>
+        <item>@string/can_not_see</item>
+    </string-array>
+    <string-array name="check_version">
+        <item>@string/version_now</item>
+        <item>@string/check_version</item>
+    </string-array>
+    <string-array name="color_temp">
+        <item>@string/image_standard</item>
+        <item>@string/image_warm</item>
+        <item>@string/image_cold</item>
+    </string-array>
+    <string-array name="commonsetting">
+        <item>@string/tv_name</item>
+        <item>@string/protect_monitor_time</item>
+        <item>@string/time_type</item>
+        <item>@string/audio</item>
+         <item>@string/video_volume</item>
+        <item>@string/yaokong_setting</item>
+        <item>@string/blueteeth</item>
+        <item>@string/keda_setting</item>
+        <item>@string/location_detail</item>
+        <item>@string/devloper_model</item>
+        <item>@string/version_check</item>
+        <item>@string/reset</item>
+    </string-array>
+    <string-array name="commonsetting_for_intgrade">
+        <item>@string/tv_name</item>
+        <item>@string/protect_monitor_time</item>
+        <item>@string/time_type</item>
+        <item>@string/image_settings</item>
+        <item>@string/blueteeth</item>
+        <item>@string/location_detail</item>
+        <item>@string/devloper_model</item>
+        <item>@string/version_check</item>
+        <item>@string/reset</item>
+    </string-array>
+    <string-array name="device_info_for_separete">
+     <item>@string/model</item>
+        <item>@string/firmware</item>        
+        <item>@string/android_version</item>
+        <item>@string/ip</item>
+        <item>@string/mac</item>
+        <item>@string/msn</item>
+        <item>@string/time</item>
+        <item>@string/space</item>
+ </string-array>
+    <string-array name="deviceinfo">
+        <item>@string/model</item>
+        <item>@string/firmware</item>
+        
+        <item>@string/android_version</item>
+        <item>@string/ip</item>
+        <item>@string/mac</item>
+        <item>@string/sn</item>
+        <item>@string/yunsn</item>
+        <item>@string/tv_version</item>
+        <item>@string/time</item>
+        <item>@string/space</item>
+    </string-array>
+    <string-array name="devloper_model">
+        <item>@string/adb_test</item>
+      
+        <item>@string/allow_app</item>
+    </string-array>
+    <string-array name="dimen_type_selection">
+        <item>@string/close</item>
+        <item>@string/auto_three_dimen</item>
+        <item>@string/left_right_change</item>
+        <item>@string/top_bottom_change</item>
+    </string-array>
+    <string-array name="ethernet_connected_item_list">
+        <item>@string/ethernet_item_test_speed</item>
+        <item>@string/ethernet_item_wifi_share</item>
+        <!-- <item>@string/ethernet_item_ipv4</item> -->
+        <item>@string/ethernet_item_manual_adjust</item>
+        <item>@string/ethernet_item_ip_address</item>
+        <item>@string/ethernet_item_net_mask</item>
+        <item>@string/ethernet_item_gateway</item>
+        <item>@string/ethernet_item_dns</item>
+        <!-- <item>@string/ethernet_item_ipv6</item> -->
+        <!-- <item>@string/ethernet_item_manual_adjust</item> -->
+        <!-- <item>@string/ethernet_item_ip_address</item> -->
+        <!-- <item>@string/ethernet_item_net_mask</item> -->
+        <!-- <item>@string/ethernet_item_gateway</item> -->
+        <!-- <item>@string/ethernet_item_dns</item> -->
+        <item>@string/ethernet_item_disable_net</item>
+        <item>@string/pppoe_auto_connect</item>
+    </string-array>
+    <string-array name="ethernet_disconnected_item_list">
+        <!--  <item>@string/ethernet_dis_use_wifi</item> -->
+        <item>@string/ethernet_dis_use_pppoe</item>
+        <item>@string/ethernet_dis_modify_net</item>
+        <item>@string/ethernet_dis_check_net</item>
+    </string-array>
+    <string-array name="ethernet_modify_net_item_list">
+        <!-- <item>@string/ethernet_item_ipv4</item>-->
+        <item>@string/ethernet_item_manual_adjust</item>
+        <item>@string/ethernet_item_ip_address</item>
+        <item>@string/ethernet_item_net_mask</item>
+        <item>@string/ethernet_item_gateway</item>
+        <item>@string/ethernet_item_dns</item>
+        <!-- <item>@string/ethernet_item_ipv6</item>-->
+        <!-- <item>@string/ethernet_item_manual_adjust</item>-->
+        <!-- <item>@string/ethernet_item_ip_address</item>-->
+        <!-- <item>@string/ethernet_item_net_mask</item>-->
+        <!-- <item>@string/ethernet_item_gateway</item>-->
+        <!-- <item>@string/ethernet_item_dns</item>-->
+    </string-array>
+    <string-array name="image_profile_array">
+        <item>@string/sewen</item>
+        <item>@string/liangdu</item>
+        <item>@string/duibidu</item>
+        <item>@string/baohedu</item>
+        <item>@string/beiguang</item>
+    </string-array>
+    <string-array name="left_right">
+        <item>@string/left</item>
+        <item>@string/right</item>
+    </string-array>
+    <string-array name="on_off">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </string-array>
+    <string-array name="open_close">
+        <item>@string/open</item>
+        <item>@string/close</item>
+    </string-array>
+    <string-array name="other_setting">
+        <item>@string/tv_name</item>
+        <item>@string/view_setting</item>
+        <item>@string/audio_setting</item>
+        <item>@string/devloper_model</item>
+        <item>@string/location_detail</item>
+        <item>@string/reset</item>
+    </string-array>
+    <string-array name="pcm_raw">
+        <item>@string/pcm</item>
+        <item>@string/raw</item>
+    </string-array>
+    <string-array name="settingcode">
+     <item>@string/initcode</item>
+     <item>@string/newcode</item>
+     <item>@string/newcodeconfirm</item>
+    </string-array>
+    <string-array name="theme_color">
+        <item>@string/white</item>
+        <item>@string/black</item>
+        
+    </string-array>
+    <string-array name="three_dimen">
+        <item>@string/three_dimen_type</item>
+        <item>@string/threed_to_twod</item>
+        <item>@string/left_right_mode</item>
+        <item>@string/top_bottom_mode</item>
+    </string-array>
+    <string-array name="time_array1">
+        <item>@string/time1</item>
+        <item>@string/time2</item>
+        <item>@string/time3</item>
+        <item>@string/time_ex</item>
+    </string-array>
+    <string-array name="time_array2">
+        <item>@string/time4</item>
+        <item>@string/time5</item>
+        <item>@string/time6</item>
+    </string-array>
+    <string-array name="time_array3">
+        <item>@string/time7</item>
+        <item>@string/time8</item>
+    </string-array>
+    <string-array name="time_array4">
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>2147483647</item>
+    </string-array>
+    <string-array name="top_bottom">
+        <item>@string/top</item>
+        <item>@string/bottom</item>
+    </string-array>
+    <string-array name="tv_name">
+        <item>@string/cloud_tv</item>
+        <item>@string/livingroom_tv</item>
+        <item>@string/bedroom_tv</item>
+    </string-array>
+    <string-array name="volume_array">
+        <item>@string/volume1</item> 
+        <item>@string/volume2</item> 
+        <item>@string/volume3</item>
+        <item>@string/volume4</item>
+        <item>@string/volume5</item>
+        <item>@string/volume6</item>
+        <item>@string/volume7</item>
+        <item>@string/volume8</item>
+        <item>@string/volume9</item>
+        <item>@string/volume10</item>
+        <item>@string/volume11</item>
+        <item>@string/volume12</item>
+        <item>@string/volume13</item>
+        <item>@string/volume14</item>
+        <item>@string/volume15</item>
+        <item>@string/volume16</item>
+        <item>@string/volume17</item>
+        <item>@string/volume18</item>
+        <item>@string/volume19</item>
+        <item>@string/volume20</item>
+        <item>@string/volume21</item>  
+        
+    </string-array>
+    <string-array name="wifi_disconnected_item_list">
+        <item>@string/ethernet_dis_modify_net</item>
+        <item>@string/ethernet_dis_check_net</item>
+        <item>@string/ethernet_item_disable_net</item>
+    </string-array>
+    <string-array name="wifi_modify_item_list">
+        <item>@string/ethernet_item_test_speed</item>
+        <!-- <item>@string/ethernet_item_ipv4</item>-->
+        <item>@string/ethernet_item_manual_adjust</item>
+        <item>@string/ethernet_item_ip_address</item>
+        <item>@string/ethernet_item_net_mask</item>
+        <item>@string/ethernet_item_gateway</item>
+        <item>@string/ethernet_item_dns</item>
+        <!-- <item>@string/ethernet_item_ipv6</item>-->
+        <!-- <item>@string/ethernet_item_manual_adjust</item>-->
+        <!-- <item>@string/ethernet_item_ip_address</item>-->
+        <!-- <item>@string/ethernet_item_net_mask</item>-->
+        <!-- <item>@string/ethernet_item_gateway</item>-->
+        <!-- <item>@string/ethernet_item_dns</item>-->
+        <item>@string/ethernet_item_disable_net</item>
+    </string-array>
+    <string-array name="wifi_security">
+
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+    </string-array>
+    <string-array name="wifi_security_no_eap">
+
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+    </string-array>
+    <string-array name="wifi_share_onoff">
+        <item>@string/wifi_share_off</item>
+        <item>@string/wifi_share_on</item>
+    </string-array>
+    <string-array name="wifi_softap_security" translatable="false">
+        <item>@string/wifi_share_security_open</item>
+        <item>@string/wifi_share_security_wpa_psk</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_share_security_wpa2_psk</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item msgid="1922181315419294640">@string/you1</item>
+        <item msgid="8934131797783724664">@string/you2</item>
+        <item msgid="8513729475867537913">@string/you3</item>
+        <item msgid="515055375277271756">@string/you4</item>
+        <item msgid="1943354004029184381">@string/you5</item>
+        <item msgid="4221763391123233270">@string/you6</item>
+        <item msgid="624838831631122137">@string/you7</item>
+        <item msgid="7979680559596111948">@string/you8</item>
+        <item msgid="1634960474403853625">@string/you9</item>
+        <item msgid="746097431216080650">@string/you10</item>
+        <item msgid="6367044185730295334">@string/you11</item>
+        <item msgid="503942654197908005">@string/you12</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item msgid="7714855332363650812"/>
+        <item msgid="8878186979715711006">"正在扫描…"</item>
+        <item msgid="355508996603873860">"正在连接到 <ns1:g id="NETWORK_NAME">%1$s</ns1:g> … "</item>
+        <item msgid="554971459996405634">"正在通过  <ns1:g id="NETWORK_NAME">%1$s</ns1:g> 进行身份验证… "</item>
+        <item msgid="7928343808033020343">"正在从 <ns1:g id="NETWORK_NAME">%1$s</ns1:g> 获取 IP 地址… "</item>
+        <item msgid="8937994881315223448">"已连接到 <ns1:g id="NETWORK_NAME">%1$s</ns1:g> "</item>
+        <item msgid="1330262655415760617">"已暂停"</item>
+        <item msgid="7698638434317271902">"正在断开与 <ns1:g id="NETWORK_NAME">%1$s</ns1:g> 的连接…"</item>
+        <item msgid="197508606402264311">"已断开连接"</item>
+        <item msgid="8578370891960825148">"失败"</item>
+        <item msgid="5660739516542454527">"已阻止"</item>
+        <item msgid="1805837518286731242">"暂时关闭状况不佳的连接"</item>
+    </string-array>
+    <!-- From: file:/D:/androidspace/CloudShanDongSetting/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="circle1">#ffffe749</color>
+    <color name="circle2">#ffff9600</color>
+    <color name="circle3">#ffffac30</color>
+    <color name="grey1_color">#ffc7c7c7</color>
+    <color name="grey2_color">#ffb5b5b5</color>
+    <color name="grey3_color">#ff3c3c3c</color>
+    <color name="grey4_color">#ff5c5c5c</color>
+    <color name="grey5_color">#55a9a9a9</color>
+    <color name="grey6_color">#a9a9a9</color>
+    <color name="grey_color">#929292</color>
+    <color name="orange_color">#ff8c00</color>
+    <color name="red">#F00</color>
+    <color name="select_text_color">#00fff6</color>
+    <color name="settings_0c9bf9">#0c9bf9</color>
+    <color name="settings_9a9a9a">#559a9a9a</color>
+    <color name="settings_blue_007eff">#007eff</color>
+    <color name="settings_ffffff">#ffffffff</color>
+    <color name="transparent_70">#AA000000</color>
+    <color name="white">#ffffffff</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <declare-styleable name="WifiEncryptionState"><attr format="boolean" name="state_encrypted"/></declare-styleable>
+    <declare-styleable name="wifiSignalState"><attr format="boolean" name="state_selected"/></declare-styleable>
+    <drawable name="translucent_background">#CC000000</drawable>
+    <!-- From: file:/D:/androidspace/CloudShanDongSetting/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_domy">About</string>
+    <string name="about_domy_detail">About device</string>
+    <string name="about_gen_setting">Settings of Domysystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="adb_test">adb debug</string>
+    <string name="allow">允许</string>
+    <string name="allow_app">Permission for unknown applications</string>
+    <string name="android_version">Android version</string>
+    <string name="app_name">DomySetting</string>
+    <string name="audio">Audio</string>
+    <string name="audio_setting">声音</string>
+    <string name="auto_three_dimen">自动</string>
+    <string name="availablesize">"Available:"</string>
+    <string name="baohedu">"饱和度"</string>
+    <string name="bedroom_tv">Bedroom TV</string>
+    <string name="beiguang">"背光"</string>
+    <string name="black">黑色</string>
+    <string name="blue_teeth_switch">Bluetooth</string>
+    <string name="blueteeth">Bluetooth</string>
+    <string msgid="963376081347721598" name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
+    <string msgid="4630849022250168427" name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
+    <string name="bluetooth_bonded">Paired</string>
+    <string msgid="3708312912841950052" name="bluetooth_confirm_passkey_msg">To pair with:<ns1:g id="DEVICE_NAME">%1$s</ns1:g>,the key is:&lt;font color="#00FFD6"><ns1:g id="PASSKEY">%2$s</ns1:g>&lt;/font></string>
+    <string name="bluetooth_connect">Connect</string>
+    <string name="bluetooth_connect_message">Please choose an operation</string>
+    <string name="bluetooth_connect_success">Connected</string>
+    <string name="bluetooth_connected">Connected</string>
+    <string name="bluetooth_connected_no_a2dp">Connected (no media)</string>
+    <string name="bluetooth_connected_no_headset">no headset</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">no headset no a2dp</string>
+    <string name="bluetooth_connecting">Connecting</string>
+    <string msgid="229861986106185022" name="bluetooth_connecting_error_message">Couldn\'t connect to <ns1:g id="DEVICE_NAME">%1$s</ns1:g>.</string>
+    <string name="bluetooth_detail">Settings of bluetooth</string>
+    <string name="bluetooth_disconnected">Disconnected</string>
+    <string name="bluetooth_disconnecting">Disconnecting</string>
+    <string name="bluetooth_discovering_device">Scanning…</string>
+    <string name="bluetooth_discovery_device">Available devices</string>
+    <string msgid="2796550001376088433" name="bluetooth_display_passkey_pin_msg">To pair with:<ns1:g id="BOLD1_0"/><ns1:g id="DEVICE_NAME">%1$s</ns1:g><ns1:g id="END_BOLD1"/> Type on it:<ns1:g id="BOLD2_1"/>&lt;font color="#00FFD6"><ns1:g id="PASSKEY">%2$s</ns1:g>&lt;/font><ns1:g id="END_BOLD2"/>, then press Enter.</string>
+    <string msgid="2220143735340367939" name="bluetooth_enter_passkey_msg">To pair with:&lt;font color="#0594D5"><ns1:g id="DEVICE_NAME">%1$s</ns1:g>&lt;/font>Type the device\'s required passkey:</string>
+    <string name="bluetooth_error">Bluetooth connection failed</string>
+    <string name="bluetooth_error_title">Connect error</string>
+    <string msgid="7661070206715520671" name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
+    <string msgid="8705753622443862627" name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
+    <string msgid="3381760054215168689" name="bluetooth_hid_profile_summary_connected">Connected to input device</string>
+    <string msgid="232727040453645139" name="bluetooth_hid_profile_summary_use_for">Use for input</string>
+    <string msgid="1615930853859551491" name="bluetooth_incoming_pairing_msg">From:&lt;font color="#0594D5"><ns1:g id="DEVICE_NAME">%1$s</ns1:g>&lt;/font>,pair with this ?</string>
+    <string name="bluetooth_makesure_the_key">Please make sure the key is:&lt;font color="#00FFD6"><ns1:g id="PASSKEY">%2$s</ns1:g>&lt;/font>"</string>
+    <string msgid="8191407438851351713" name="bluetooth_map_profile_summary_connected">Connected to map</string>
+    <string msgid="5154200119919927434" name="bluetooth_map_profile_summary_use_for">Use for map</string>
+    <string name="bluetooth_need_topair">To pair with:<ns1:g id="DEVICE_NAME">%1$s</ns1:g></string>
+    <string msgid="5300852675110479862" name="bluetooth_notif_message">Touch to pair with</string>
+    <string msgid="4726721390078512173" name="bluetooth_notif_ticker">Bluetooth pairing request</string>
+    <string msgid="2485175521845371514" name="bluetooth_notif_title">Pairing request</string>
+    <string msgid="2611913495968309066" name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
+    <string msgid="1267091356089086285" name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
+    <string msgid="1255674547144769756" name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
+    <string name="bluetooth_pair_error">Pair error</string>
+    <string name="bluetooth_pair_success">Paired</string>
+    <string name="bluetooth_pairing">Pairing</string>
+    <string msgid="7870998403045801381" name="bluetooth_pairing_device_down_error_message">Can\'t communicate with <ns1:g id="DEVICE_NAME">%1$s</ns1:g>.</string>
+    <string msgid="3748157733635947087" name="bluetooth_pairing_error_message">Couldn\'t pair with <ns1:g id="DEVICE_NAME">%1$s</ns1:g>.</string>
+    <string msgid="8337234855188925274" name="bluetooth_pairing_pin_error_message">Couldn\'t pair with <ns1:g id="DEVICE_NAME">%1$s</ns1:g> because of an incorrect PIN or passkey.</string>
+    <string msgid="1648157108520832454" name="bluetooth_pairing_rejected_error_message">Pairing rejected by <ns1:g id="DEVICE_NAME">%1$s</ns1:g>.</string>
+    <string msgid="1561383706411975199" name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
+    <string msgid="5664884523822068653" name="bluetooth_pan_profile_summary_use_for">Use for Internet access</string>
+    <string msgid="4602294638909590612" name="bluetooth_pan_user_profile_summary_connected">Connected to device for Internet access</string>
+    <string msgid="2031475486179830674" name="bluetooth_profile_a2dp">Media audio</string>
+    <string msgid="8658779596261212609" name="bluetooth_profile_headset">Phone audio</string>
+    <string msgid="3680729023366986480" name="bluetooth_profile_hid">Input device</string>
+    <string msgid="5465271250454324383" name="bluetooth_profile_map">Message Access</string>
+    <string msgid="9168139293654233697" name="bluetooth_profile_opp">File transfer</string>
+    <string msgid="3391606497945147673" name="bluetooth_profile_pan">Internet access</string>
+    <string msgid="8429049285027482959" name="bluetooth_profile_pan_nap">Internet connection sharing</string>
+    <string name="bluetooth_requir_pair">Bluetooth pairing request</string>
+    <string name="bluetooth_timeout">Connection timeout.</string>
+    <string name="bluetooth_unpair">Unpair</string>
+    <string name="bluetooth_warning">\u0020\u0020\u0020\u0020\u0020Please press ∨and— at the same time\nto connect bluetooth.</string>
+    <string name="bluttooth_enter_the_same">Please enter same KEY on device</string>
+    <string name="bottom">bottom</string>
+    <string name="btn_wifi">WiFi network</string>
+    <string name="can_not_see">No</string>
+    <string name="can_see">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="check_network_connect_failed">Connection failed</string>
+    <string name="check_network_connect_success">Connection succeed</string>
+    <string name="check_network_title">Network status</string>
+    <string name="check_network_title_notice">Check network connection</string>
+    <string name="check_software_version">检测软件版本</string>
+    <string name="check_version">版本检测</string>
+    <string name="chinese">Chinese</string>
+    <string name="clean_all_confirm">Some data will lose if you reset your device,\nplease do reset carefully.</string>
+    <string name="close">Turn off</string>
+    <string name="cloud_tv">Domy TV</string>
+    <string name="cloud_user">cloud_user</string>
+    <string name="devloper_model">Developer mode</string>
+    <string name="dimens_seeting">3D设置</string>
+    <string name="duibidu">"对比度"</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enger_setting">Settings for engineers</string>
+    <string name="english">English</string>
+    <string name="enter">Confirm</string>
+    <string name="eth_dis_title"> Wired network is not connected</string>
+    <string name="eth_title">Wired network</string>
+    <string name="ethernet_dis_check_net">Check connection</string>
+    <string name="ethernet_dis_modify_net">Modify settings</string>
+    <string name="ethernet_dis_notice">Connection failed</string>
+    <string name="ethernet_dis_reconnect">Try again</string>
+    <string name="ethernet_dis_use_pppoe">Connect PPPOE</string>
+    <string name="ethernet_dis_use_wifi">Connect WiFi</string>
+    <string name="ethernet_item_disable_net">Forget network</string>
+    <string name="ethernet_item_dns">DNS</string>
+    <string name="ethernet_item_gateway">Gateway</string>
+    <string name="ethernet_item_ip_address">IP address</string>
+    <string name="ethernet_item_ipv4">ipv4</string>
+    <string name="ethernet_item_ipv6">ipv6</string>
+    <string name="ethernet_item_manual_adjust">Manual setting</string>
+    <string name="ethernet_item_net_mask">Subnet mask</string>
+    <string name="ethernet_item_test_speed">Network speed</string>
+    <string name="ethernet_item_wifi_share">Share Wi-Fi</string>
+    <string name="ethernet_name">Wired network</string>
+    <string name="ethernet_notice">Settings of wired network</string>
+    <string name="feedback_message">反馈受理信息</string>
+    <string name="feedback_problem">反馈问题</string>
+    <string name="find_yaokongqi">Found remote control</string>
+    <string name="firmware">Firmware</string>
+    <string name="game_strong">游戏增强</string>
+    <string name="gen_setting">通用设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="image_cold">Cold</string>
+    <string name="image_profile">"图像参数"</string>
+    <string name="image_profile_detail">"自定义调整图像显示"</string>
+    <string name="image_standard">Standard</string>
+    <string name="image_warm">Warm</string>
+    <string name="ip">IP</string>
+    <string name="keda_setting">DBS set-top box</string>
+    <string name="language_setting">Language</string>
+    <string name="left">left</string>
+    <string name="left_right_change">左右切换</string>
+    <string name="left_right_mode">左右模式</string>
+    <string name="liangdu">"亮度"</string>
+    <string name="listview_profiles_mode_discription_1">For all of your general requirments</string>
+    <string name="listview_profiles_mode_discription_2">Built a great viewing experience in theater,best for Ultra HD movies</string>
+    <string name="listview_profiles_mode_discription_3">Litsen music, feel your heart</string>
+    <string name="listview_profiles_mode_discription_4">Design for playing games, you will have fun here</string>
+    <string name="listview_profiles_mode_discription_5">Design for showing colorful images</string>
+    <string name="listview_profiles_mode_title_1">General</string>
+    <string name="listview_profiles_mode_title_2">Cinema</string>
+    <string name="listview_profiles_mode_title_3">Music</string>
+    <string name="listview_profiles_mode_title_4">Game</string>
+    <string name="listview_profiles_mode_title_5">Colorful</string>
+    <string name="livingroom_tv">Living-room TV</string>
+    <string name="location_detail">Location information</string>
+    <string name="lunbo_setting">轮播设置</string>
+    <string name="mac">MAC</string>
+    <string name="manual_add_wifi">Add WiFi manually</string>
+    <string name="manual_wifi_commit">Submit</string>
+    <string name="manual_wifi_name">Name</string>
+    <string name="manual_wifi_password">Password</string>
+    <string name="manual_wifi_safe">Type</string>
+    <string name="model">Model</string>
+    <string name="modify_not">No changes</string>
+    <string name="modify_success">Mode changed</string>
+    <string name="msn">SN</string>
+    <string name="mystery">神秘功能</string>
+    <string name="need_to_update">有新版本需要更新</string>
+    <string name="net_speed_tips">"The current network is not the Great Wall broadband network，will affect the actual video playback speed"</string>
+    <string name="network_error">Server connection timeout！</string>
+    <string name="network_setting">Network</string>
+    <string name="new_message">(有新消息)</string>
+    <string name="not_allow">不允许</string>
+    <string name="off">Turn off</string>
+    <string name="on">Turn on</string>
+    <string name="open">Turn on</string>
+    <string name="other_setting">Others</string>
+    <string name="other_thing">一般不会用到的设置</string>
+    <string name="parameters_setting">常规参数设置</string>
+    <string name="password">Password</string>
+    <string name="pcm">PCM</string>
+    <string name="polarize_type">偏光设定</string>
+    <string name="pppoe_auto_connect">Connect automatically</string>
+    <string name="pppoe_connect">Broadband connection</string>
+    <string name="pppoe_connect_commit">Connect</string>
+    <string name="pppoe_connect_failed">Connection failed</string>
+    <string name="pppoe_connect_failed_auth">Invalid username or password</string>
+    <string name="pppoe_connect_failed_server_no_response">Sever no response</string>
+    <string name="pppoe_connect_success">Connection succeed</string>
+    <string name="pppoe_connect_timeout">Connection timeout</string>
+    <string name="pppoe_connect_waiting_msg">Connecting,wait please...</string>
+    <string name="pppoe_connecting">PPPOE connecting...</string>
+    <string name="pppoe_disconnect_failed">Disconnection failed</string>
+    <string name="pppoe_disconnect_ok">Disconnection succeed</string>
+    <string name="pppoe_disconnect_waiting_msg">Disconnecting,wait please...</string>
+    <string name="pppoe_hangup_waiting_msg">Waiting please</string>
+    <string name="pppoe_name_or_psw_is_null">Please fill username/password</string>
+    <string name="pppoe_password">Password</string>
+    <string name="pppoe_state_disconnected">PPPOE disconnected,please don\'t try again.</string>
+    <string name="pppoe_username">Username</string>
+    <string name="problem_feedback">问题反馈</string>
+    <string name="problem_feedback_detal">反馈问题信息</string>
+    <string name="problem_submit">问题反馈</string>
+    <string name="protect_monitor_time">Screensaver</string>
+    <string name="raw">RAW</string>
+    <string name="reset">Reset</string>
+    <string name="reset_warning">"Warning"</string>
+    <string name="right">right</string>
+    <string name="ruilidu">"锐利度"</string>
+    <string name="scene">Modes</string>
+    <string name="security_type">安全类型</string>
+    <string name="sedu">"色度"</string>
+    <string name="see_or_ort">Visible for other devices</string>
+    <string name="select_time_zone">Select Time Zone</string>
+    <string name="set_it_yourself">自定义</string>
+    <string name="sewen">"色温"</string>
+    <string name="sleep_time">休眠时间</string>
+    <string name="sn">Cloud box</string>
+    <string name="space">Internal storage</string>
+    <string name="str_ip_address_invalid">Invalid format</string>
+    <string name="str_ip_equal_gateway">IP is same as gateway</string>
+    <string name="str_ip_full_characters">Exceed character limit</string>
+    <string name="str_ip_input_type">1234567890.</string>
+    <string name="str_ip_max_value">The max number is 255</string>
+    <string name="str_ip_no_gateway">IP and gateway aren\'t on the same segment</string>
+    <string name="submit">Submit</string>
+    <string name="test_speed_0">0</string>
+    <string name="test_speed_00">.00</string>
+    <string name="test_speed_average_speed">Avg speed:</string>
+    <string name="test_speed_begin_test">Start testing</string>
+    <string name="test_speed_bigm_unit">MB/S</string>
+    <string name="test_speed_broadband_level_1">Poor speed,you may experience video lag.</string>
+    <string name="test_speed_broadband_level_1_1">Please try other connection</string>
+    <string name="test_speed_broadband_speed">Broadband:</string>
+    <string name="test_speed_broadband_title_1">Your network speed is faster than the rest</string>
+    <string name="test_speed_broadband_title_2">users\'</string>
+    <string name="test_speed_broadband_title_3">Current speed is better for:</string>
+    <string name="test_speed_littlem_unit">Mb/S</string>
+    <string name="test_speed_movie_1080p">1080P</string>
+    <string name="test_speed_movie_360p">建议更换网络</string>
+    <string name="test_speed_movie_4k">4K</string>
+    <string name="test_speed_movie_720p">720P</string>
+    <string name="test_speed_net_stars">Rate:</string>
+    <string name="test_speed_notice">Speed testing</string>
+    <string name="test_speed_per_30">30%</string>
+    <string name="test_speed_per_50">50%</string>
+    <string name="test_speed_per_70">70%</string>
+    <string name="test_speed_per_90">90%</string>
+    <string name="test_speed_real_speed">Peak speed:</string>
+    <string name="test_speed_repeat_test">Test again</string>
+    <string name="test_speed_testing_count">Counting</string>
+    <string name="test_speed_title">Network speed </string>
+    <string name="test_speed_tv_level"> Better for:</string>
+    <string name="test_speed_unit_converter">1MB/S=8Mb/S</string>
+    <string name="textview_location_area_title">地\u0020区</string>
+    <string name="textview_location_city_title">城\u0020市</string>
+    <string name="textview_location_province_title">省\u0020份</string>
+    <string name="textview_location_text">北\u0020京</string>
+    <string name="textview_location_title">Location</string>
+    <string name="textview_location_title_discription">Please select your location</string>
+    <string name="textview_profiles_title">Modes</string>
+    <string name="textview_profiles_title_discription">Settings of visiual and aural modes</string>
+    <string name="textview_prompt_1">Press\u0020</string>
+    <string name="textview_prompt_2">\u0020to choose\u0020\u0020\u0020|\u0020\u0020\u0020Press\u0020</string>
+    <string name="textview_prompt_3">to return</string>
+    <string name="textview_prompt_for_image_1">键\u0020进行参数调节\u0020\u0020\u0020|\u0020\u0020\u0020按\u0020</string>
+    <string name="textview_prompt_for_image_2">键\u0020切换调节项目</string>
+    <string name="textview_prompt_location">键\u0020确认\u0020\u0020\u0020|\u0020\u0020\u0020按\u0020</string>
+    <string name="theme_color">主题颜色</string>
+    <string name="three_dimen_type">3D模式</string>
+    <string name="three_dimens_setting">3D选项设定</string>
+    <string name="threed_to_twod">3D转2D</string>
+    <string name="time">Release date</string>
+    <string name="time1">5mins</string>
+    <string name="time2">10mins</string>
+    <string name="time3">15mins</string>
+    <string name="time4">30mins</string>
+    <string name="time5">60mins</string>
+    <string name="time6">120mins</string>
+    <string name="time7">12-hour</string>
+    <string name="time8">24-hour</string>
+    <string name="time_ex">Turn off</string>
+    <string name="time_type">Time format</string>
+    <string name="time_zone">Time Zone</string>
+    <string name="title_activity_add_wifi">AddWifiActivity</string>
+    <string name="title_activity_blue_tooth">BlueToothActivity</string>
+    <string name="title_activity_bluetooth_pair">BluetoothPairActivity</string>
+    <string name="title_activity_common">CommonActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_deviceinfo">DeviceinfoActivity</string>
+    <string name="title_activity_devloper_model">DevloperModelActivity</string>
+    <string name="title_activity_feedback_problem">FeedbackProblemActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_other_setting">OtherSettingActivity</string>
+    <string name="title_activity_three_dimen">ThreeDimenActivity</string>
+    <string name="title_activity_timezone">TimezoneActivity</string>
+    <string name="title_activity_turning_off">TurningOffActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="title_activity_version_check">VersionCheckActivity</string>
+    <string name="top">top</string>
+    <string name="top_bottom_change">上下切换</string>
+    <string name="top_bottom_mode">上下模式</string>
+    <string name="total_size_for_32">8GB</string>
+    <string name="total_size_for_55">16GB</string>
+    <string name="totalsize">" Total:"</string>
+    <string name="turning_off">Turning off…</string>
+    <string name="tv_name">Name</string>
+    <string name="tv_version">Screen firmware</string>
+    <string name="u_test">U盘调试</string>
+    <string name="update">更\u0020\u0020新</string>
+    <string name="version_check">Check for updates</string>
+    <string name="version_now">当前版本</string>
+    <string name="version_now_message">当前版本信息</string>
+    <string name="version_update">版本更新</string>
+    <string name="view_setting">图像</string>
+    <string name="vod_setting">点播设置</string>
+    <string name="wait_for_delete">The listed data will lose：\n1、Local system configuration data;\n2、Data about user behavior like viewing
+records and favorites;\n3、Installed game applications.\nThe listed data will remain：\n1、The current system software;\n2、Pre-installed game applications;\n3、System files, etc.\nAre you sure you want to reset your
+device?</string>
+    <string name="wait_for_more">暂未开放，敬请期待！</string>
+    <string name="wendu">35</string>
+    <string name="white">白色</string>
+    <string name="wifi_connected_failed">Connection failed,please try again</string>
+    <string name="wifi_connected_success">\u0020(Connected)</string>
+    <string name="wifi_disabled_password_failure">authentication failed</string>
+    <string msgid="1265540342578081461" name="wifi_fail_to_scan">Not found</string>
+    <string name="wifi_failed_forget_message">Forget network failed</string>
+    <string name="wifi_failed_save_message">Saved unsuccessfully</string>
+    <string name="wifi_manual_add">Add WiFi manually</string>
+    <string name="wifi_name">Wi-Fi</string>
+    <string name="wifi_not_in_range">Not in range</string>
+    <string name="wifi_notice">Settings of Wi-Fi network</string>
+    <string name="wifi_password_error">Incorrect password</string>
+    <string name="wifi_password_error1">Password must be greater than to 0 and less than or equal to 63</string>
+    <string name="wifi_password_error2">Password must be greater than or equal to 8 and less than or equal to 63</string>
+    <string name="wifi_password_length_limit">Password must be at least 8 characters</string>
+    <string name="wifi_password_null">Password can not be empty！</string>
+    <string name="wifi_scaning">Scanning…</string>
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <string name="wifi_security_none">Open WiFi network</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_share">Share WiFi</string>
+    <string name="wifi_share_close_softap">Closing,wait please...</string>
+    <string name="wifi_share_error_1">Enable hotspot failed</string>
+    <string name="wifi_share_error_2">Please enter WiFi name</string>
+    <string name="wifi_share_name_too_long">Shared name is too long, please modify less than 20 characters</string>
+    <string name="wifi_share_off">Turn off</string>
+    <string name="wifi_share_on">Turn on</string>
+    <string name="wifi_share_open_softap">Opening,wait please...</string>
+    <string name="wifi_share_open_success">Hotspot has been opened</string>
+    <string name="wifi_share_opened">Turned on</string>
+    <string name="wifi_share_security_open">Open</string>
+    <string name="wifi_share_security_wpa2_psk">WPA2 PSK</string>
+    <string name="wifi_share_start_soft">Data processing,wait please...</string>
+    <string name="wifi_ssid_error">SSID must be greater than 0 and less than or equal to 20</string>
+    <string name="wifi_sucess_forget_message">Forget network success</string>
+    <string name="yaokong_setting">Remote control settings</string>
+    <string name="yaokongqi_connect">Remote control has already connnected!</string>
+    <string name="yaokongqsheding">Bluetooth remote control settings</string>
+    <string name="yaokongshezhi">Remote control settings</string>
+    <string name="you1"/>
+    <string name="you10">Failed</string>
+    <string name="you11">Stopped</string>
+    <string name="you12">Temporarily close poor connections</string>
+    <string name="you2">Scanning…</string>
+    <string name="you3">Connecting…</string>
+    <string name="you4">Authenticating…</string>
+    <string name="you5">Obtaining IP address…</string>
+    <string name="you6">Connected</string>
+    <string name="you7">Paused</string>
+    <string name="you8">Disconnecting…</string>
+    <string name="you9">Disconnected</string>
+    <string name="yunsn">Cloud screen</string>
+    <!-- From: file:/D:/androidspace/CloudShanDongSetting/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="BasicDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">@dimen/dialog_width</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    <style name="BluetoothPairDialog" parent="@style/BasicDialog">
+        
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="CustomProgressDialog" parent="@style/BasicDialog">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CustomProgressNewDialog" parent="@style/BasicDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+    <style name="layout_cycle_focus">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:background">@drawable/cycle_style</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="layout_cycle_focus1">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">280dp</item>
+        
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="layout_cycle_focus_p">
+        <item name="android:src">@drawable/cycle_style</item>
+    </style>
+    <style name="menu_popu_in_out_style">  
+        <item name="android:windowEnterAnimation">@anim/menu_popuwindow_in_anim</item>  
+        <item name="android:windowExitAnimation">@anim/menu_popuwindow_out_anim</item>  
+    </style>
+    <style name="myTranslucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+         <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="noTitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

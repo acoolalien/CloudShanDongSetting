@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout" >
+
+        <ImageView
+            android:id="@+id/ethernet_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/title_llyout_width"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/ethernet_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/ethernet_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_version"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_software_version"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+ 
+     <com.shandong.cloudtv.settings.widget.LauncherFocusView
+	    android:id="@+id/activity_version_check_focusview"
+	   	android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+	    />
+    <ListView
+        android:id="@+id/version_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/version_check_listview_marginleft"
+        android:layout_marginRight="@dimen/version_check_listview_marginright"
+        android:layout_marginTop="@dimen/version_check_listview_margintop"
+        android:divider="@drawable/longline"
+        android:fadeScrollbars="false"
+        android:scrollbars="none"
+        android:listSelector="@drawable/list_selector_0"
+        android:focusable="true" />
+    
+    <TextView
+        android:id="@+id/now_version_message"
+        android:layout_alignLeft="@+id/version_check"
+        android:text="@string/version_now_message"
+        android:textSize="@dimen/text_size_38"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/version_check"
+        android:textColor="@color/grey5_color"
+        android:layout_marginLeft="@dimen/version_check_textview1_marginleft"
+        ></TextView>
+    <TextView 
+        android:id="@+id/now_version_message_detail"
+        android:layout_below="@+id/now_version_message"
+        android:layout_alignLeft="@+id/now_version_message"
+        android:layout_marginTop="@dimen/version_check_textview2_margintop"
+        android:layout_width="@dimen/version_check_textview2_width"
+        android:layout_height="@dimen/version_check_textview2_height"
+        android:background="@drawable/message"
+        android:singleLine="false"
+        android:textColor="@color/grey5_color"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/text_size_24"
+        />
+  
+    
+    
+
+</RelativeLayout>

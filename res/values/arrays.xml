@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->
+    <string-array name="wifi_security">
+
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_eap</item>
+    </string-array>
+    <!-- Wi-Fi security types for New User Dialog. EAP is not configurable. -->
+    <string-array name="wifi_security_no_eap">
+
+        <!-- The Wi-Fi network does not have any security. -->
+        <item>@string/wifi_security_none</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_wep</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_security_psk_generic</item>
+    </string-array>
+    <string-array name="wifi_share_onoff">
+        <item>@string/wifi_share_off</item>
+        <item>@string/wifi_share_on</item>
+    </string-array>
+    <string-array name="ethernet_connected_item_list">
+        <item>@string/ethernet_item_test_speed</item>
+        <item>@string/ethernet_item_wifi_share</item>
+        <!-- <item>@string/ethernet_item_ipv4</item> -->
+        <item>@string/ethernet_item_manual_adjust</item>
+        <item>@string/ethernet_item_ip_address</item>
+        <item>@string/ethernet_item_net_mask</item>
+        <item>@string/ethernet_item_gateway</item>
+        <item>@string/ethernet_item_dns</item>
+        <!-- <item>@string/ethernet_item_ipv6</item> -->
+        <!-- <item>@string/ethernet_item_manual_adjust</item> -->
+        <!-- <item>@string/ethernet_item_ip_address</item> -->
+        <!-- <item>@string/ethernet_item_net_mask</item> -->
+        <!-- <item>@string/ethernet_item_gateway</item> -->
+        <!-- <item>@string/ethernet_item_dns</item> -->
+        <item>@string/ethernet_item_disable_net</item>
+        <item>@string/pppoe_auto_connect</item>
+    </string-array>
+    <string-array name="on_off">
+        <item>@string/off</item>
+        <item>@string/on</item>
+    </string-array>
+    <string-array name="ethernet_disconnected_item_list">
+
+        <!-- <item>@string/ethernet_dis_use_wifi</item> -->
+        <item>@string/ethernet_dis_use_pppoe</item>
+        <item>@string/ethernet_dis_modify_net</item>
+        <item>@string/ethernet_dis_check_net</item>
+    </string-array>
+    <string-array name="ethernet_modify_net_item_list">
+
+        <!-- <item>@string/ethernet_item_ipv4</item> -->
+        <item>@string/ethernet_item_manual_adjust</item>
+        <item>@string/ethernet_item_ip_address</item>
+        <item>@string/ethernet_item_net_mask</item>
+        <item>@string/ethernet_item_gateway</item>
+        <item>@string/ethernet_item_dns</item>
+        <!-- <item>@string/ethernet_item_ipv6</item> -->
+        <!-- <item>@string/ethernet_item_manual_adjust</item> -->
+        <!-- <item>@string/ethernet_item_ip_address</item> -->
+        <!-- <item>@string/ethernet_item_net_mask</item> -->
+        <!-- <item>@string/ethernet_item_gateway</item> -->
+        <!-- <item>@string/ethernet_item_dns</item> -->
+    </string-array>
+    <string-array name="wifi_modify_item_list">
+        <item>@string/ethernet_item_test_speed</item>
+        <!-- <item>@string/ethernet_item_ipv4</item> -->
+        <item>@string/ethernet_item_manual_adjust</item>
+        <item>@string/ethernet_item_ip_address</item>
+        <item>@string/ethernet_item_net_mask</item>
+        <item>@string/ethernet_item_gateway</item>
+        <item>@string/ethernet_item_dns</item>
+        <!-- <item>@string/ethernet_item_ipv6</item> -->
+        <!-- <item>@string/ethernet_item_manual_adjust</item> -->
+        <!-- <item>@string/ethernet_item_ip_address</item> -->
+        <!-- <item>@string/ethernet_item_net_mask</item> -->
+        <!-- <item>@string/ethernet_item_gateway</item> -->
+        <!-- <item>@string/ethernet_item_dns</item> -->
+        <item>@string/ethernet_item_disable_net</item>
+    </string-array>
+    <string-array name="wifi_disconnected_item_list">
+        <item>@string/ethernet_dis_modify_net</item>
+        <item>@string/ethernet_dis_check_net</item>
+        <item>@string/ethernet_item_disable_net</item>
+    </string-array>
+
+    <!-- BY YQB -->
+    <string-array name="deviceinfo">
+        <!--
+        <item>@string/model</item>
+        <item>@string/firmware</item>
+        <item>@string/android_version</item>
+        <item>@string/ip</item>
+        <item>@string/mac</item>
+        <item>@string/sn</item>
+        <item>@string/yunsn</item>
+        <item>@string/tv_version</item>
+        <item>@string/time</item>
+        <item>@string/space</item>
+        -->
+        <!-- <item>@string/model</item> -->
+        <!-- <item>@string/firmware</item> -->
+        <!-- <item>@string/android_version</item> -->
+        <item>@string/ip</item>
+        <item>@string/mac</item>
+        <item>@string/msn</item>
+        <!-- <item>@string/time</item> -->
+        <item>@string/space</item>
+        <item>@string/device_id</item>
+    </string-array>
+    <string-array name="device_info_for_separete">
+
+        <!-- <item>@string/model</item> -->
+        <!-- <item>@string/firmware</item> -->
+        <!-- <item>@string/android_version</item> -->
+        <item>@string/ip</item>
+        <item>@string/mac</item>
+        <item>@string/msn</item>
+        <!-- <item>@string/time</item> -->
+        <item>@string/space</item>
+        <item>@string/device_id</item>
+    </string-array>
+    <string-array name="commonsetting">
+        <item>@string/tv_name</item>
+        <item>@string/protect_monitor_time</item>
+        <item>@string/time_type</item>
+        <item>@string/audio</item>
+        <item>@string/video_volume</item>
+        <item>@string/yaokong_setting</item>
+        <item>@string/blueteeth</item>
+        <item>@string/keda_setting</item>
+        <item>@string/location_detail</item>
+        <item>@string/devloper_model</item>
+        <item>@string/version_check</item>
+        <item>@string/reset</item>
+    </string-array>
+    <string-array name="commonsetting_for_intgrade">
+        <item>@string/tv_name</item>
+        <item>@string/protect_monitor_time</item>
+        <item>@string/time_type</item>
+        <item>@string/image_settings</item>
+        <item>@string/blueteeth</item>
+        <item>@string/location_detail</item>
+        <item>@string/devloper_model</item>
+        <item>@string/version_check</item>
+        <item>@string/reset</item>
+    </string-array>
+    <string-array name="open_close">
+        <item>@string/open</item>
+        <item>@string/close</item>
+    </string-array>
+    <string-array name="time_array1">
+        <item>@string/time1</item>
+        <item>@string/time2</item>
+        <item>@string/time3</item>
+        <item>@string/time_ex</item>
+    </string-array>
+    <string-array name="time_array2">
+        <item>@string/time4</item>
+        <item>@string/time5</item>
+        <item>@string/time6</item>
+    </string-array>
+    <string-array name="time_array3">
+        <item>@string/time7</item>
+        <item>@string/time8</item>
+    </string-array>
+    <!-- 要转化成整数的，别乱动 -->
+    <string-array name="time_array4">
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>2147483647</item>
+    </string-array>
+    <string-array name="three_dimen">
+        <item>@string/three_dimen_type</item>
+        <item>@string/threed_to_twod</item>
+        <item>@string/left_right_mode</item>
+        <item>@string/top_bottom_mode</item>
+    </string-array>
+    <string-array name="dimen_type_selection">
+        <item>@string/close</item>
+        <item>@string/auto_three_dimen</item>
+        <item>@string/left_right_change</item>
+        <item>@string/top_bottom_change</item>
+    </string-array>
+    <string-array name="left_right">
+        <item>@string/left</item>
+        <item>@string/right</item>
+    </string-array>
+    <string-array name="top_bottom">
+        <item>@string/top</item>
+        <item>@string/bottom</item>
+    </string-array>
+    <string-array name="devloper_model">
+        <item>@string/adb_test</item>
+        <item>@string/allow_app</item>
+    </string-array>
+    <string-array name="allow_or_not">
+        <item>@string/allow</item>
+        <item>@string/not_allow</item>
+    </string-array>
+    <string-array name="check_version">
+        <item>@string/version_now</item>
+        <item>@string/check_version</item>
+    </string-array>
+    <string-array name="can_see_or_not">
+        <item>@string/can_see</item>
+        <item>@string/can_not_see</item>
+    </string-array>
+    <string-array name="other_setting">
+        <item>@string/tv_name</item>
+        <item>@string/view_setting</item>
+        <item>@string/audio_setting</item>
+        <item>@string/devloper_model</item>
+        <item>@string/location_detail</item>
+        <item>@string/reset</item>
+    </string-array>
+    <string-array name="tv_name">
+        <item>@string/cloud_tv</item>
+        <item>@string/livingroom_tv</item>
+        <item>@string/bedroom_tv</item>
+    </string-array>
+    <string-array name="theme_color">
+        <item>@string/white</item>
+        <item>@string/black</item>
+    </string-array>
+    <string-array name="wifi_status">
+        <item msgid="1922181315419294640">@string/you1</item>
+        <item msgid="8934131797783724664">@string/you2</item>
+        <item msgid="8513729475867537913">@string/you3</item>
+        <item msgid="515055375277271756">@string/you4</item>
+        <item msgid="1943354004029184381">@string/you5</item>
+        <item msgid="4221763391123233270">@string/you6</item>
+        <item msgid="624838831631122137">@string/you7</item>
+        <item msgid="7979680559596111948">@string/you8</item>
+        <item msgid="1634960474403853625">@string/you9</item>
+        <item msgid="746097431216080650">@string/you10</item>
+        <item msgid="6367044185730295334">@string/you11</item>
+        <item msgid="503942654197908005">@string/you12</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item msgid="7714855332363650812"></item>
+        <item msgid="8878186979715711006">"正在扫描…"</item>
+        <item msgid="355508996603873860">"正在连接到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> … "</item>
+        <item msgid="554971459996405634">"正在通过  <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 进行身份验证… "</item>
+        <item msgid="7928343808033020343">"正在从 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 获取 IP 地址… "</item>
+        <item msgid="8937994881315223448">"已连接到 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> "</item>
+        <item msgid="1330262655415760617">"已暂停"</item>
+        <item msgid="7698638434317271902">"正在断开与 <xliff:g id="NETWORK_NAME">%1$s</xliff:g> 的连接…"</item>
+        <item msgid="197508606402264311">"已断开连接"</item>
+        <item msgid="8578370891960825148">"失败"</item>
+        <item msgid="5660739516542454527">"已阻止"</item>
+        <item msgid="1805837518286731242">"暂时关闭状况不佳的连接"</item>
+    </string-array>
+    <string-array name="wifi_softap_security" translatable="false">
+        <item>@string/wifi_share_security_open</item>
+        <item>@string/wifi_share_security_wpa_psk</item>
+        <!-- Do not translate. -->
+        <item>@string/wifi_share_security_wpa2_psk</item>
+    </string-array>
+    <string-array name="image_profile_array">
+        <item>@string/sewen</item>
+        <item>@string/liangdu</item>
+        <item>@string/duibidu</item>
+        <item>@string/baohedu</item>
+        <item>@string/beiguang</item>
+    </string-array>
+    <string-array name="color_temp">
+        <item>@string/image_standard</item>
+        <item>@string/image_warm</item>
+        <item>@string/image_cold</item>
+    </string-array>
+    <string-array name="pcm_raw">
+        <item>@string/pcm</item>
+        <item>@string/raw</item>
+    </string-array>
+    <string-array name="volume_array">
+        <item>@string/volume1</item>
+        <item>@string/volume2</item>
+        <item>@string/volume3</item>
+        <item>@string/volume4</item>
+        <item>@string/volume5</item>
+        <item>@string/volume6</item>
+        <item>@string/volume7</item>
+        <item>@string/volume8</item>
+        <item>@string/volume9</item>
+        <item>@string/volume10</item>
+        <item>@string/volume11</item>
+        <item>@string/volume12</item>
+        <item>@string/volume13</item>
+        <item>@string/volume14</item>
+        <item>@string/volume15</item>
+        <item>@string/volume16</item>
+        <item>@string/volume17</item>
+        <item>@string/volume18</item>
+        <item>@string/volume19</item>
+        <item>@string/volume20</item>
+        <item>@string/volume21</item>
+    </string-array>
+    <string-array name="settingcode">
+        <item>@string/initcode</item>
+        <item>@string/newcode</item>
+        <item>@string/newcodeconfirm</item>
+    </string-array>
+
+</resources>

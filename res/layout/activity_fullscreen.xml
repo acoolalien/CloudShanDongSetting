@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/manual_wifi_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/manual_add_wifi"
+        android:textColor="@color/settings_ffffff" />
+
+    <Button
+        android:id="@+id/wifi_share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/wifi_share"
+        android:textColor="@color/settings_ffffff" />
+
+    <Button
+        android:id="@+id/pppoe_connect_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/pppoe_connect"
+        android:textColor="@color/settings_ffffff" />
+
+    <Button
+        android:id="@+id/ethernet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/eth_title"
+        android:textColor="@color/settings_ffffff" />
+
+    <Button
+        android:id="@+id/ethernet_dis_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/eth_dis_title"
+        android:textColor="@color/settings_ffffff" />
+
+    <Button
+        android:id="@+id/wifi_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/wifi_name"
+        android:textColor="@color/settings_ffffff" />
+
+    <Button
+        android:id="@+id/test_speed_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="@string/test_speed_title"
+        android:textColor="@color/settings_ffffff" />
+
+   <Button
+        android:id="@+id/test_device_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="Device Id"
+        android:textColor="@color/settings_ffffff" />
+
+</LinearLayout>

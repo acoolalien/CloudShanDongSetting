@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="631dp"
+    android:layout_height="503dp"
+    android:background="@drawable/reset_dialog"
+     >
+   
+    <TextView 
+        android:id="@+id/message1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/line1"
+        android:textSize="@dimen/text_size_36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:lineSpacingMultiplier="1.5"
+        android:text="@string/bluetooth_requir_pair"
+        />
+    <TextView 
+        android:id="@+id/message2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:textSize="@dimen/text_size_24"
+        android:layout_below="@+id/message1"
+        android:layout_width="wrap_content"
+        android:lineSpacingMultiplier="1.5"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey6_color"
+        android:text="@string/wait_for_delete"
+        
+        />
+
+ 
+    <LinearLayout 
+        android:layout_below="@+id/message2"
+       
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="124dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="64dp"
+        android:layout_height="117dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button 
+            android:id="@+id/button1"
+            android:background="@drawable/button_selector"
+            android:text="@string/enter"
+            android:textColor="@color/settings_ffffff"
+            android:textSize="@dimen/text_size_36"
+            android:layout_width="145dp"
+            
+            android:layout_height="65dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:visibility="visible"
+            ></Button>
+        <Button 
+            android:id="@+id/button2"
+            android:background="@drawable/button_selector"
+            android:text="@string/cancel"
+            android:textColor="@color/settings_ffffff"
+            android:textSize="@dimen/text_size_36"
+            android:layout_width="145dp"
+            android:layout_height="65dp"
+            android:visibility="visible"
+            android:gravity="center_vertical|center_horizontal"
+            ></Button>
+    </LinearLayout>
+    
+
+</RelativeLayout>

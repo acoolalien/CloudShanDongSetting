@@ -1,0 +1,30 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <!-- settings -->
+	<color name="settings_9a9a9a">#559a9a9a</color>
+	<color name="settings_ffffff">#ffffffff</color>
+	<color name="settings_0c9bf9">#0c9bf9</color>
+	<color name="settings_blue_007eff">#007eff</color>
+	
+	<color name="circle1">#ffffe749</color>
+    <color name="circle2">#ffff9600</color>
+    <color name="circle3">#ffffac30</color>
+    
+    
+    <!-- BY yiqibang -->
+     <color name="white">#ffffffff</color>
+    <color name="black">#000</color>
+    <color name="red">#F00</color>
+    <color name="orange_color">#ff8c00</color>
+    <color name="grey1_color">#ffc7c7c7</color>
+    <color name="grey2_color">#ffb5b5b5</color>
+    <color name="grey3_color">#ff3c3c3c</color>
+    <color name="grey4_color">#ff5c5c5c</color>
+    <color name="grey5_color">#55a9a9a9</color>
+    <color name="grey6_color">#a9a9a9</color>
+    <color name="grey_color">#929292</color>
+    <color name="transparent_70">#AA000000</color>
+    <drawable name="translucent_background">#CC000000</drawable>
+    <color name="select_text_color">#00fff6</color>
+</resources>

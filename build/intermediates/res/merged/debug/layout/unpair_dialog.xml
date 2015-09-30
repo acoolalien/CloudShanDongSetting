@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="536dp"
+    android:layout_height="270dp"
+    android:background="@drawable/dialog_background"
+     >
+     
+    <TextView 
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_40"
+        android:text="@string/bluetooth_connect_message"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="50dp"
+        />
+    
+    <Button 
+        android:id="@+id/button1"
+        android:layout_below="@+id/textview"
+        android:layout_width="145dp"
+        android:layout_height="65dp"
+        android:text="@string/bluetooth_unpair"
+        android:background="@drawable/button_selector"
+        android:textSize="@dimen/text_size_30"
+        android:textColor="@color/white"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        
+        />
+    <Button 
+        android:id="@+id/button2"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_below="@+id/textview"
+        android:layout_width="145dp"
+        android:layout_height="65dp"
+        android:text="@string/bluetooth_connect"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:textSize="@dimen/text_size_30"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        
+        />
+    
+
+</RelativeLayout>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/unpair_dialog.xml -->

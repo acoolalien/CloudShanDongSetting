@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView 
+        android:id="@+id/mode_setting_bg"
+        android:layout_width="519dp"
+        android:layout_height="719dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/mode_setting_bg"
+        />
+
+    <com.shandong.cloudtv.settings.widget.LauncherFocusView
+        android:id="@+id/focusview_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+  <RelativeLayout 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="64dp"
+      android:layout_marginTop="85dp"
+      >
+             <TextView
+                android:id="@+id/textView_profiles_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/textview_profiles_title"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView_profiles_title_discription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView_profiles_title"
+                android:layout_below="@+id/textView_profiles_title"
+                android:text="@string/textview_profiles_title_discription"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+            </RelativeLayout>
+            
+              <ListView
+        android:id="@+id/listView_profiles_show"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:divider="@drawable/settings_profiles_divider"
+        android:dividerHeight="0dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarThumbVertical="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        >
+    </ListView>
+    
+</RelativeLayout>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/activity_mode_setting.xml -->

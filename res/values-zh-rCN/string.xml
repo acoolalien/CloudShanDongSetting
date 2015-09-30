@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">DomySetting</string>
+    <string name="manual_add_wifi">手动添加WIFI</string>
+    <string name="wifi_share">WIFI分享</string>
+    <string name="pppoe_connect">宽带连接</string>
+    <string name="eth_title">有线网络</string>
+    <string name="eth_dis_title">有线网络未连接</string>
+    <string name="btn_wifi">无线网络</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- manual add wifi -->
+    <string name="manual_wifi_name">网络名称</string>
+    <string name="manual_wifi_safe">安全类型</string>
+    <string name="manual_wifi_password">密码</string>
+    <string name="manual_wifi_commit">提\u0020交</string>
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">开放无密码</string>
+    <!-- Do not translate.  Terminology for wifi with WEP security -->
+    <string name="wifi_security_wep">WEP</string>
+    <!-- Do not translate.  Terminology for wifi with WPA security -->
+    <string name="wifi_security_wpa">WPA PSK</string>
+    <!-- Do not translate.  Terminology for wifi with WPA2 security -->
+    <string name="wifi_security_wpa2">WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with both WPA/WPA2 security, or unknown -->
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <!-- Do not translate.  Terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_eap">802.1x EAP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WEP security -->
+    <string name="wifi_security_short_wep">WEP</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA security -->
+    <string name="wifi_security_short_wpa">WPA</string>
+    <!-- Do not translate.  Concise terminology for wifi with WPA2 security -->
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with both WPA/WPA2 security -->
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <!-- Do not translate.  Concise terminology for wifi with unknown PSK type -->
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <!-- Do not translate.  Concise terminology for wifi with 802.1x EAP security -->
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_disabled_password_failure">"身份验证出现问题"</string>
+    <string name="wifi_connected_failed">无法连接，请重试</string>
+    <string name="wifi_fail_to_scan" msgid="1265540342578081461">"扫描不到网络"</string>
+    <string name="wifi_failed_save_message">"无法保存网络"</string>
+    <string name="wifi_failed_forget_message">"无法忘记网络"</string>
+    <string name="wifi_sucess_forget_message">"忘记网络成功"</string>
+    <string name="wifi_not_in_range">"此网络不在范围内!"</string>
+    <string name="wifi_connected_success">\u0020(已连接)</string>
+    <string name="wifi_password_length_limit">密码长度至少8位</string>
+    <string name="wifi_password_error1">密码长度要大于0并且小于或等于63</string>
+    <string name="wifi_password_error2">密码长度要大于或等于8并且小于或等于63</string>
+    <string name="wifi_ssid_error">SSID长度要大于0并且小于或等于20</string>
+    <string name="wifi_scaning">正在扫描&#8230;</string>
+    <string name="wifi_password_null">密码不能为空！</string>
+
+    <!-- pppoe connect -->
+    <string name="pppoe_connect_commit">连\u0020接</string>
+    <string name="pppoe_username">用户名</string>
+    <string name="pppoe_password">密码</string>
+    <string name="pppoe_connect_failed">宽带拨号失败</string>
+    <string name="pppoe_connect_success">宽带拨号成功</string>
+    <string name="pppoe_disconnect_failed">宽带拨号断开失败</string>
+    <string name="pppoe_disconnect_ok">宽带拨号断开成功</string>
+    <string name="pppoe_hangup_waiting_msg">请稍等</string>
+    <string name="pppoe_connect_timeout">连接超时</string>
+    <string name="pppoe_connect_failed_auth">无效的用户名或密码</string>
+    <string name="pppoe_connect_failed_server_no_response">服务器无响应</string>
+    <string name="pppoe_disconnect_waiting_msg">正在断开，请稍等…</string>
+    <string name="pppoe_connect_waiting_msg">正在连接，请稍等…</string>
+    <string name="pppoe_connecting">正在进行宽带拨号…</string>
+    <string name="pppoe_name_or_psw_is_null">用户名或者密码不能为空</string>
+    <string name="pppoe_auto_connect">开机自动连接</string>
+    <string name="pppoe_state_disconnected">宽带拨号已经断开,不用重复断开!</string>
+
+    <!-- wifi share -->
+    <string name="wifi_share_on">打开</string>
+    <string name="wifi_share_off">关闭</string>
+    <string name="wifi_share_security_open">开放</string>
+    <string name="wifi_share_security_wpa2_psk">WPA2 PSK</string>
+    <string name="wifi_share_security_wpa_psk">WPA PSK</string>
+    <string name="wifi_share_error_2">网络名称不能为空！</string>
+    <string name="wifi_share_error_1">启动热点失败！</string>
+    <string name="wifi_share_start_soft">正在提交数据，请稍候…</string>
+    <string name="wifi_share_open_softap">正在打开，请稍等…</string>
+    <string name="wifi_share_close_softap">正在关闭，请稍等…</string>
+    <string name="wifi_share_open_success">热点已开启</string>
+    <string name="wifi_share_opened">已开启</string>
+    <string name="wifi_share_name_too_long">共享名字太长，请修改少于20个字符</string>
+    <!-- ethernet -->
+    <string name="ethernet_name">有线网络</string>
+    <string name="ethernet_notice">有线网络相关设置</string>
+    <string name="ethernet_item_test_speed">网络测速</string>
+    <string name="ethernet_item_wifi_share">wifi分享</string>
+    <string name="ethernet_item_manual_adjust">手动调整</string>
+    <string name="ethernet_item_ip_address">IP地址</string>
+    <string name="ethernet_item_net_mask">子网掩码</string>
+    <string name="ethernet_item_gateway">网关</string>
+    <string name="ethernet_item_dns">DNS</string>
+    <string name="ethernet_item_ipv6">ipv6</string>
+    <string name="ethernet_item_ipv4">ipv4</string>
+    <string name="ethernet_item_disable_net">忘记此网络</string>
+    <string name="on">开\u0020启</string>
+    <string name="off">关\u0020闭</string>
+    <string name="ethernet_dis_use_wifi">使用无线网络</string>
+    <string name="ethernet_dis_use_pppoe">使用宽带拨号网络</string>
+    <string name="ethernet_dis_modify_net">网络信息修改</string>
+    <string name="ethernet_dis_reconnect">再次连接</string>
+    <string name="ethernet_dis_check_net">检测网络问题</string>
+    <string name="ethernet_dis_notice">您的网络连接失败</string>
+    <string name="str_ip_input_type">1234567890.</string>
+    <string name="str_ip_no_gateway">IP和网关不在同一网段</string>
+    <string name="str_ip_address_invalid">输入格式有误</string>
+    <string name="str_ip_max_value">最大数值不能超过255</string>
+    <string name="str_ip_full_characters">输入字符已超</string>
+    <string name="str_ip_equal_gateway">IP和网关相同</string>
+    <string name="network_error">服务器连接超时！</string> 
+    
+    <!-- wifi -->
+    <string name="wifi_name">无线网络</string>
+    <string name="wifi_notice">无线网络相关设置</string>
+    <string name="wifi_manual_add">手动添加无线网络</string>
+    <string name="wifi_password_error">密码输入不正确</string>
+
+    <!-- test speed -->
+    <string name="test_speed_title">网络测速</string>
+    <string name="test_speed_notice">检测设备网络速度</string>
+    <string name="test_speed_unit_converter">1MB/S=8Mb/S</string>
+    <string name="test_speed_real_speed">峰值速度:</string>
+    <string name="test_speed_average_speed">平均速度:</string>
+    <string name="test_speed_broadband_speed">宽带估值:</string>
+    <string name="test_speed_broadband_title_1">您的网速领先全国</string>
+    <string name="test_speed_broadband_title_2">的测速用户</string>
+    <string name="test_speed_broadband_title_3">您当前的网络适合观看:</string>
+    <string name="test_speed_broadband_level_1">您的网速属于垫底行列观看影片可能会有卡顿</string>
+    <string name="test_speed_broadband_level_1_1">建议您更换网络</string>
+    <string name="test_speed_begin_test">开始测速</string>
+    <string name="test_speed_repeat_test">重新测速</string>
+    <string name="test_speed_net_stars">网速评分:</string>
+    <string name="test_speed_tv_level">适合观看:</string>
+    <string name="test_speed_0">0</string>
+    <string name="test_speed_00">.00</string>
+    <string name="test_speed_bigm_unit">MB/S</string>
+    <string name="test_speed_littlem_unit">Mb/S</string>
+    <string name="test_speed_per_30">30%</string>
+    <string name="test_speed_per_50">50%</string>
+    <string name="test_speed_per_70">70%</string>
+    <string name="test_speed_per_90">90%</string>
+    <string name="test_speed_movie_360p">建议更换网络</string>
+    <string name="test_speed_movie_720p">720P</string>
+    <string name="test_speed_movie_1080p">1080P</string>
+    <string name="test_speed_movie_4k">4K</string>
+    <string name="test_speed_testing_count">计算中</string>
+    <!-- check network -->
+    <string name="check_network_title">检测网络</string>
+    <string name="check_network_title_notice">检查网络连接状态</string>
+    <string name="check_network_connect_success">网络连接成功</string>
+    <string name="check_network_connect_failed">网络连接失败</string>
+
+    <!-- BY YQB -->
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="cloud_user">cloud_user</string>
+    <string name="wendu">35</string>
+    <string name="scene">情景模式</string>
+    <string name="network_setting">网络设置</string>
+    <string name="other_setting">其他设置</string>
+    <string name="gen_setting">通用设置</string>
+    <string name="about_gen_setting">电视系统相关设置</string>
+    <string name="about_domy">关于本机</string>
+    <string name="about_domy_detail">本机的相关信息</string>
+    <string name="title_activity_deviceinfo">DeviceinfoActivity</string>
+    <string name="model">产品型号</string>
+    <string name="firmware">软件版本</string>
+    <string name="tv_version">电视固件版本</string>
+    <string name="android_version">Android版本</string>
+    <string name="ip">IP</string>
+    <string name="mac">MAC</string>
+    <string name="sn">云盒SN</string>
+    <string name="msn">SN</string>
+    <string name="yunsn">云屏SN</string>
+    <string name="time">发布时间</string>
+    <string name="space">内部存储空间</string>
+    <string name="device_id">设备ID</string>
+    <string name="security_type">安全类型</string>
+    <string name="password">密码</string>
+    <string name="submit">提交</string>
+    <string name="title_activity_add_wifi">AddWifiActivity</string>
+    <string name="title_activity_common">CommonActivity</string>
+    <string name="mystery">神秘功能</string>
+    <string name="game_strong">游戏增强</string>
+    <string name="protect_monitor_time">屏保时间</string>
+    <string name="sleep_time">休眠时间</string>
+    <string name="theme_color">主题颜色</string>
+    <string name="time_type">时间显示</string>
+    <string name="dimens_seeting">3D设置</string>
+    <string name="yaokong_setting">遥控器设定</string>
+    <string name="image_settings">图像设置</string>
+    <string name="blueteeth">蓝牙设定</string>
+    <string name="bluetooth_detail">蓝牙相关设定</string>
+    <string name="keda_setting">直播机顶盒设置</string>
+    <string name="vod_setting">点播设置</string>
+    <string name="lunbo_setting">轮播设置</string>
+    <string name="version_check">版本检测</string>
+    <string name="problem_submit">问题反馈</string>
+    <string name="other_thing">一般不会用到的设置</string>
+    <string name="open">开启</string>
+    <string name="close">关闭</string>
+    <string name="time1">5分钟</string>
+    <string name="time2">10分钟</string>
+    <string name="time3">15分钟</string>
+    <string name="time_ex">关闭</string>
+    <string name="time4">30分钟</string>
+    <string name="time5">60分钟</string>
+    <string name="time6">120分钟</string>
+    <string name="time7">12小时</string>
+    <string name="time8">24小时</string>
+    <string name="title_activity_three_dimen">ThreeDimenActivity</string>
+    <string name="three_dimen_type">3D模式</string>
+    <string name="left_right_mode">左右模式</string>
+    <string name="top_bottom_mode">上下模式</string>
+    <string name="threed_to_twod">3D转2D</string>
+    <string name="auto_three_dimen">自动</string>
+    <string name="polarize_type">偏光设定</string>
+    <string name="left_right_change">左右切换</string>
+    <string name="top_bottom_change">上下切换</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="top">上</string>
+    <string name="bottom">下</string>
+    <string name="title_activity_devloper_model">DevloperModelActivity</string>
+    <string name="adb_test">adb调试</string>
+    <string name="u_test">U盘调试</string>
+    <string name="allow_app">允许安装未知来源的应用</string>
+    <string name="allow">允许</string>
+    <string name="not_allow">不允许</string>
+    <string name="title_activity_version_check">VersionCheckActivity</string>
+    <string name="version_now">当前版本</string>
+    <string name="check_version">版本检测</string>
+    <string name="version_now_message">当前版本信息</string>
+    <string name="check_software_version">检测软件版本</string>
+    <string name="need_to_update">有新版本需要更新</string>
+    <string name="update">更\u0020\u0020新</string>
+    <string name="version_update">版本更新</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="see_or_ort">对其他设备可见</string>
+    <string name="blue_teeth_switch">蓝牙开关</string>
+    <string name="title_activity_blue_tooth">BlueToothActivity</string>
+    <string name="can_see">可见</string>
+    <string name="can_not_see">不可见</string>
+    <string name="problem_feedback">问题反馈</string>
+    <string name="problem_feedback_detal">反馈问题信息</string>
+    <string name="feedback_problem">反馈问题</string>
+    <string name="feedback_message">反馈受理信息</string>
+    <string name="new_message">(有新消息)</string>
+    <string name="title_activity_feedback_problem">FeedbackProblemActivity</string>
+    <string name="title_activity_other_setting">OtherSettingActivity</string>
+    <string name="tv_name">电视名称</string>
+    <string name="view_setting">图像</string>
+    <string name="audio_setting">声音</string>
+    <string name="devloper_model">开发者模式</string>
+    <string name="location_detail">位置信息</string>
+    <string name="reset">还原出厂设置</string>
+    <string name="cloud_tv">大麦电视</string>
+    <string name="livingroom_tv">客厅电视</string>
+    <string name="bedroom_tv">卧室电视</string>
+    <string name="set_it_yourself">自定义</string>
+    <string name="three_dimens_setting">3D选项设定</string>
+    <string name="enger_setting">工程师专属设定</string>
+    <string name="parameters_setting">常规参数设置</string>
+    <string name="black">黑色</string>
+    <string name="white">白色</string>
+    <string name="bluetooth_connected">已连接</string>
+    <string name="bluetooth_connecting">连接中</string>
+    <string name="bluetooth_disconnected">已断开</string>
+    <string name="bluetooth_disconnecting">断开中</string>
+    <string name="bluetooth_error_title">连接错误</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"用于手机音频"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"用于文件传输"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"用于输入"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"用于访问互联网"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"用于地图"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"用于媒体音频"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"已连接到媒体音频"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"已连接到手机音频"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"已连接到文件传输服务器"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"已连接到地图"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"未连接到文件传输服务器"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"已连接到输入设备"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"连接到设备以访问互联网"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"与设备共享本地互联网连接"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"媒体音频"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"手机音频"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"文件传输"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"输入设备"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"互联网访问"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"互联网连接共享"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"消息权限"</string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"无法与“<xliff:g id="DEVICE_NAME">%1$s</xliff:g>”进行配对。"</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"PIN 或配对密钥不正确，无法与“<xliff:g id="DEVICE_NAME">%1$s</xliff:g>”配对。"</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"无法与“<xliff:g id="DEVICE_NAME">%1$s</xliff:g>”进行通信。"</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> 已拒绝配对。"</string>
+    <string name="bluetooth_connecting_error_message" msgid="229861986106185022">"无法连接到<xliff:g id="DEVICE_NAME">%1$s</xliff:g>。"</string>
+    <string name="bluetooth_pair_error">配对失败</string>
+    <string name="bluetooth_bonded">已配对</string>
+    <string name="bluetooth_pairing">配对中</string>
+    <string name="bluetooth_connected_no_a2dp">a2dp没连上</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">no headset no a2dp</string>
+    <string name="bluetooth_connected_no_headset">no headset</string>
+    <string name="bluetooth_requir_pair">蓝牙配对请求</string>
+    <string name="bluetooth_unpair">解配对</string>
+    <string name="bluetooth_connect">连接</string>
+    <string name="bluetooth_connect_message">亲，要进行什么操作？</string>
+    <string name="enter">确定</string>
+    <string name="cancel">取消</string>
+    <string name="clean_all_confirm">恢复出厂设置操作将会导致部分数据\n删除请您慎重选择。</string>
+    <string name="wait_for_delete">会删除的内容：\n1、本机上的系统设置数据;\n2、观看记录及收藏等用户行为;\n3、已安装的应用游戏。\n不会删除的内容：\n1、当前系统软件;\n2、系统预装的应用游戏;\n3、系统文件等。\n是否确认要恢复出厂设置？</string>
+    <string name="bluetooth_notif_ticker" msgid="4726721390078512173">"蓝牙配对请求"</string>
+    <string name="bluetooth_notif_title" msgid="2485175521845371514">"配对请求"</string>
+    <string name="bluetooth_notif_message" msgid="5300852675110479862">"触摸可配对。"</string>
+    <string name="bluetooth_enter_passkey_msg" msgid="2220143735340367939">"输入PIN与&lt;font color=&quot;#0594D5&quot;&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/font&gt;设备配对。（请尝试0000或1234）"</string>
+    <string name="bluttooth_enter_the_same">"您可能需要在蓝牙设备上输入同样的PIN"</string>
+    <string name="bluetooth_need_topair">"要与以下设备配对：<xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
+    <string name="bluetooth_display_passkey_pin_msg" msgid="2796550001376088433">"要与 <xliff:g id="BOLD1_0"></xliff:g><xliff:g id="DEVICE_NAME">%1$s</xliff:g><xliff:g id="END_BOLD1"></xliff:g> 设备配对，请在该设备上键入：<xliff:g id="BOLD2_1"></xliff:g>&lt;font color=&quot;#00FFD6&quot;&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/font&gt;<xliff:g id="END_BOLD2"></xliff:g>，然后按回车键。"</string>
+    <string name="bluetooth_makesure_the_key">"请确保其显示的配对密钥为：&lt;font color=&quot;#00FFD6&quot;&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/font&gt;"</string>
+    <string name="bluetooth_confirm_passkey_msg" msgid="3708312912841950052">"要与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>配对，密钥为：&lt;font color=&quot;#00FFD6&quot;&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/font&gt;</string>
+    <string name="bluetooth_incoming_pairing_msg" msgid="1615930853859551491">"来自:&lt;font color=&quot;#0594D5&quot;&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/font&gt;的配对请求，要与此设备配对吗？"</string>
+    <string name="reset_warning">"警告"</string>
+    <string name="availablesize">"可用空间:"</string>
+    <string name="totalsize">" 总容量:"</string>
+    <string name="image_profile">"图像参数"</string>
+    <string name="image_profile_detail">"自定义调整图像显示"</string>
+    <string name="sewen">"色温"</string>
+    <string name="liangdu">"亮度"</string>
+    <string name="duibidu">"对比度"</string>
+    <string name="baohedu">"饱和度"</string>
+    <string name="sedu">"色度"</string>
+    <string name="ruilidu">"锐利度"</string>
+    <string name="beiguang">"背光"</string>
+    <string name="wait_for_more">暂未开放，敬请期待！</string>
+    <string name="modify_success">情景模式修改成功</string>
+    <string name="modify_not">情景模式未修改</string>
+    <string name="bluetooth_discovery_device">搜索设备</string>
+    <string name="bluetooth_discovering_device">正在搜索...</string>
+    <string name="time_zone">时区设置</string>
+    <string name="select_time_zone">选择时区</string>
+    <!-- BY HUXING -->
+    <string name="listview_profiles_mode_title_1">通用模式</string>
+    <string name="textview_profiles_title">情景模式</string>
+    <string name="textview_profiles_title_discription">电视图像和声音情景模式设置</string>
+    <string name="listview_profiles_mode_discription_1">所有场景通用的模式</string>
+    <string name="listview_profiles_mode_title_2">影院模式</string>
+    <string name="listview_profiles_mode_discription_2">最高限度还原影院体验</string>
+    <string name="listview_profiles_mode_title_3">音乐模式</string>
+    <string name="listview_profiles_mode_discription_3">听音乐，听出心跳的声音</string>
+    <string name="listview_profiles_mode_title_4">游戏模式</string>
+    <string name="listview_profiles_mode_discription_4">游戏增强，玩的爽才是真的爽</string>
+    <string name="listview_profiles_mode_title_5">艳丽模式</string>
+    <string name="listview_profiles_mode_discription_5">对比度高，成像艳丽</string>
+    <string name="listview_profiles_mode_title_6">自定义模式</string>
+    <string name="listview_profiles_mode_discription_6">自己定义，自己最满意</string>
+    <string name="textview_location_title">位置信息</string>
+    <string name="textview_location_title_discription">选择您的所在地</string>
+    <string name="textview_location_text">北\u0020京</string>
+    <string name="textview_location_province_title">省\u0020份</string>
+    <string name="textview_location_city_title">城\u0020市</string>
+    <string name="textview_location_area_title">地\u0020区</string>
+    <string name="textview_prompt_1">按\u0020</string>
+    <string name="textview_prompt_2">键\u0020选择模式\u0020\u0020\u0020|\u0020\u0020\u0020按\u0020</string>
+    <string name="textview_prompt_3">退出</string>
+    <string name="textview_prompt_location">键\u0020确认\u0020\u0020\u0020|\u0020\u0020\u0020按\u0020</string>
+    <string name="textview_prompt_for_image_1">键\u0020进行参数调节\u0020\u0020\u0020|\u0020\u0020\u0020按\u0020</string>
+    <string name="textview_prompt_for_image_2">键\u0020切换调节项目</string>
+    <string name="title_activity_bluetooth_pair">BluetoothPairActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+    <string name="title_activity_turning_off">TurningOffActivity</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="yaokongshezhi">遥控器设置</string>
+    <string name="yaokongqsheding">蓝牙遥控器设定</string>
+    <string name="bluetooth_error">蓝牙连接失败</string>
+    <string name="find_yaokongqi">找到遥控器</string>
+    <string name="bluetooth_pair_success">配对成功</string>
+    <string name="bluetooth_connect_success">连接成功</string>
+    <string name="yaokongqi_connect">遥控器已连接,无须再次连接</string>
+    <string name="bluetooth_timeout">连接超时，请退出重新连接.</string>
+    <string name="bluetooth_warning">\u0020\u0020\u0020\u0020\u0020将遥控器靠近云盒同时按住\n频道 ∨ 和音量 — 键进行蓝牙连接</string>
+    <string name="language_setting">语言选择</string>
+    <string name="english">英语</string>
+    <string name="chinese">中文</string>
+    <string name="turning_off">正在关机&#8230;</string>
+    
+    <!-- From arrays -->
+    <string name="you1"></string>
+    <string name="you2">"正在扫描…"</string>
+    <string name="you3">"正在连接…"</string>
+    <string name="you4">"正在进行身份验证…"</string>
+    <string name="you5">"正在获取 IP 地址…"</string>
+    <string name="you6">"已连接"</string>
+    <string name="you7">"已暂停"</string>
+    <string name="you8">"正在断开连接…"</string>
+    <string name="you9">"已断开连接"</string>
+    <string name="you10">"失败"</string>
+    <string name="you11">"已阻止"</string>
+    <string name="you12">"暂时关闭状况不佳的连接"</string>
+    
+    <string name="net_speed_tips">"当前网络非长城宽带网络，会影响视频实际的播放速度"</string>
+    
+    <string name="total_size_for_55">16GB</string>
+    <string name="total_size_for_32">8GB</string>
+    <string name="image_cold">冷色</string>
+    <string name="image_standard">标准</string>
+    <string name="image_warm">暖色</string>
+    <string name="pcm">PCM</string>
+    <string name="raw">RAW</string>
+    <string name="audio">数字音频输出模式</string>
+  <string name="yiqibang">易启邦测试</string>
+  
+   
+    <!-- BY huangke -->
+    <string name="mailisuo">麦粒锁</string>
+    <string name="maili_paycode">麦粒支付密码</string>
+    <string name="textview_prompt1_1">温馨提示：如开启麦粒锁，使用麦粒支付时输入4位密码完成支付</string>
+    <string name="mailisuo_onoff">麦粒锁开关</string>
+    <string name="mailisuo_code">麦粒锁密码</string>
+    <string name="title_activity_mailisuo_model">MailisuoActivity</string>
+    <string name="title_activity_mailisuoinputcode_model">MailisuoInputCodeActivity</string>
+    <string name="finish">完成</string>
+    <string name="delete">删除</string>
+    <string name="pwd1">1234</string>
+    <string name="video_volume">开机视频音量</string>
+    <string name="volume1">0/100</string>
+    <string name="volume2">5/100</string>
+    <string name="volume3">10/100</string>
+    <string name="volume4">15/100</string>
+    <string name="volume5">20/100</string>
+    <string name="volume6">25/100</string>
+    <string name="volume7">30/100</string>
+    <string name="volume8">35/100</string>
+    <string name="volume9">40/100</string>
+    <string name="volume10">45/100</string>
+    <string name="volume11">50/100</string>
+    <string name="volume12">55/100</string>
+    <string name="volume13">60/100</string>
+    <string name="volume14">65/100</string>
+    <string name="volume15">70/100</string>
+    <string name="volume16">75/100</string>
+    <string name="volume17">80/100</string>
+    <string name="volume18">85/100</string>
+    <string name="volume19">90/100</string>
+    <string name="volume20">95/100</string>
+    <string name="volume21">100/100</string>
+    <string name="code1">1234</string>
+    <string name="inputless4">”输入不足4位“</string>
+    <string name="title_activity_settingcode">SETTINGCODE</string>
+    <string name="inputcode_1">输入密码</string>
+    <string name="modifycode">修改密码</string>
+    <string name="initcode">原始密码</string>
+    <string name="newcode">新密码</string>
+    <string name="newcodeconfirm">新密码确认</string>
+    <string name="title_activity_ModifyCode">MODIFYCODE</string>
+    <string name="modifysettingcode">设置6位新密码</string>
+    <string name="orginputless6">”原始密码输入不足6位“</string>
+    <string name="newinputless6">”新密码输入不足6位“</string>
+    <string name="confirminputless6">”确认密码输入不足6位“</string>
+    <string name="inputless6">”输入不足6位“</string>
+    <string name="title_activity_modifynewcode">MODIFYNEWCODE</string>
+    <string name="modifywrongcode">修改密码两次输入不同！</string>
+    <string name="newcodeequalinit">新密码与原密码相同！</string>
+    <string name="initcodewrong">原始密码输入错误</string>
+    <string name="finishcodemodify">密码修改成功</string>
+    <string name="wrongcode">输入密码错误</string>
+    
+</resources>

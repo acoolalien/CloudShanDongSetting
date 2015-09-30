@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout" >
+
+        <ImageView
+            android:id="@+id/ethernet_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/ethernet_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/ethernet_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yaokongshezhi"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yaokongqsheding"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       
+       >
+       
+       
+       <ImageView 
+           android:id="@+id/yaokongqi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/yaokongqi"
+           android:layout_marginLeft="247dp"
+           android:layout_marginTop="50dp"
+           />
+       <ImageView 
+           android:id="@+id/hand"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/bluetooth_hand"
+           android:layout_marginTop="135dp"
+           android:layout_marginLeft="165dp"
+           />
+       
+       <TextView 
+           android:id="@+id/warning"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/settings_ffffff"
+           android:textSize="@dimen/text_size_48"
+           android:text="@string/bluetooth_warning"
+           android:layout_toRightOf="@+id/hand"
+           android:layout_marginTop="137dp"
+           android:layout_marginLeft="50dp"
+           />
+       <TextView 
+           android:id="@+id/status"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/settings_ffffff"
+           android:textSize="@dimen/text_size_40"
+           android:layout_below="@+id/warning"
+           android:layout_toRightOf="@+id/hand"
+           android:layout_marginTop="50dp"
+           android:layout_marginLeft="100dp"
+           
+           />
+       <ImageView 
+           android:id="@+id/cycle1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/bluetooth_cycle"
+           android:layout_marginTop="120dp"
+           android:layout_marginLeft="257dp"
+           />
+       <ImageView 
+           android:id="@+id/cycle2"
+           android:layout_toRightOf="@+id/cycle1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/bluetooth_cycle"
+           android:layout_marginTop="120dp"
+           android:layout_marginLeft="3dp"
+           />
+       
+   </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/activity_control.xml -->

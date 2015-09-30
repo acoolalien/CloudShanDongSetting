@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widi_share_main_llyout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/wifi_share_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/wifi_share_leftmargin"
+        android:layout_marginTop="@dimen/wifi_share_topmargin"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/wifi_share_onoff_rlyout"
+            android:layout_width="@dimen/wifi_share_width"
+            android:layout_height="@dimen/wifi_share_item_height"
+            android:focusable="true" >
+
+            <!-- android:background="@drawable/list_item_selector" -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wifi_share_member_leftmargin"
+                android:layout_marginTop="@dimen/wifi_share_member_topmagin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/wifi_share_item_tv_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wifi_share"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_38" />
+
+                <Button
+                    android:id="@+id/wifi_share_onoff_leftarrow"
+                    android:layout_width="@dimen/wifi_share_item_btn_width"
+                    android:layout_height="@dimen/wifi_share_item_btn_height"
+                    android:layout_marginLeft="@dimen/wifi_share_item_btn_leftmargin"
+                    android:background="@drawable/left_arrow_selector"
+                    android:enabled="false"
+                    android:focusable="false" />
+
+                <TextView
+                    android:id="@+id/wifi_share_onoff_text"
+                    android:layout_width="@dimen/wifi_share_item_content_width"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:gravity="center_horizontal|center"
+                    android:text="@string/manual_wifi_safe"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_38" />
+
+                <Button
+                    android:id="@+id/wifi_share_onoff_rightarrow"
+                    android:layout_width="@dimen/wifi_share_item_btn_width"
+                    android:layout_height="@dimen/wifi_share_item_btn_height"
+                    android:background="@drawable/right_arrow_selector"
+                    android:enabled="false"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/wifi_share_underline_rightmargin"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifi_share_name_rlyout"
+            android:layout_width="@dimen/wifi_share_width"
+            android:layout_height="@dimen/wifi_share_item_height"
+            android:layout_marginTop="@dimen/wifi_share_item_topmargin"
+            android:focusable="true" >
+
+            <!-- android:background="@drawable/list_item_selector" -->
+
+            <TextView
+                android:id="@+id/wifi_share_name_tv"
+                android:layout_width="@dimen/wifi_share_item_tv_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/wifi_share_member_leftmargin"
+                android:layout_marginTop="@dimen/wifi_share_member_topmagin"
+                android:focusable="false"
+                android:text="@string/manual_wifi_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <EditText
+                android:id="@+id/wifi_share_name_edit"
+                android:layout_width="@dimen/wifi_share_item_content_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/wifi_share_name_tv"
+                android:layout_marginLeft="@dimen/wifi_share_item_btn_leftmargin"
+                android:layout_marginTop="@dimen/wifi_share_member_topmagin"
+                android:layout_toRightOf="@id/wifi_share_name_tv"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/wifi_share_underline_rightmargin"
+                android:focusable="false"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifi_share_security_rlyout"
+            android:layout_width="@dimen/wifi_share_width"
+            android:layout_height="@dimen/wifi_share_item_height"
+            android:layout_marginTop="@dimen/wifi_share_item_topmargin"
+            android:focusable="true" >
+
+            <!-- android:background="@drawable/list_item_selector" -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/wifi_share_member_leftmargin"
+                android:layout_marginTop="@dimen/wifi_share_member_topmagin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/wifi_share_security_tv"
+                    android:layout_width="@dimen/wifi_share_item_tv_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/manual_wifi_safe"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_38" />
+
+                <Button
+                    android:id="@+id/wifi_share_security_leftarrow"
+                    android:layout_width="@dimen/wifi_share_item_btn_width"
+                    android:layout_height="@dimen/wifi_share_item_btn_height"
+                    android:layout_marginLeft="@dimen/wifi_share_item_btn_leftmargin"
+                    android:background="@drawable/left_arrow_selector"
+                    android:enabled="false"
+                    android:focusable="false" />
+
+                <TextView
+                    android:id="@+id/wifi_share_security_text"
+                    android:layout_width="@dimen/wifi_share_item_content_width"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:gravity="center_horizontal|center"
+                    android:text="@string/manual_wifi_safe"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_38" />
+
+                <Button
+                    android:id="@+id/wifi_share_security_rightarrow"
+                    android:layout_width="@dimen/wifi_share_item_btn_width"
+                    android:layout_height="@dimen/wifi_share_item_btn_height"
+                    android:background="@drawable/right_arrow_selector"
+                    android:enabled="false"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/wifi_share_underline_rightmargin"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/wifi_share_password_rlyout"
+            android:layout_width="@dimen/wifi_share_width"
+            android:layout_height="@dimen/wifi_share_item_height"
+            android:layout_marginTop="@dimen/wifi_share_item_topmargin"
+            android:focusable="true" >
+
+            <!-- android:background="@drawable/list_item_selector" -->
+
+            <TextView
+                android:id="@+id/wifi_share_password_titile"
+                android:layout_width="@dimen/wifi_share_item_tv_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/wifi_share_member_leftmargin"
+                android:layout_marginTop="@dimen/wifi_share_member_topmagin"
+                android:text="@string/manual_wifi_password"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <EditText
+                android:id="@+id/wifi_share_password_edit"
+                android:layout_width="@dimen/wifi_share_item_content_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/wifi_share_password_titile"
+                android:layout_marginLeft="@dimen/wifi_share_item_btn_leftmargin"
+                android:layout_marginTop="@dimen/wifi_share_member_topmagin"
+                android:layout_toRightOf="@id/wifi_share_password_titile"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/wifi_share_underline_rightmargin"
+                android:focusable="false"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="200dip"
+            android:layout_height="80dip"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="@dimen/wifi_share_btn_commit_topmargin" >
+
+            <Button
+                android:id="@+id/wifi_share_commit_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_selector"
+                android:text="@string/manual_wifi_commit"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_38" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.shandong.cloudtv.settings.widget.LauncherFocusView
+        android:id="@+id/wifi_share_focus_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.shandong.cloudtv.settings.widget.LauncherFocusView>
+
+</LinearLayout>

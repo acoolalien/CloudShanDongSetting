@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/progress_dialog_padding" 
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:id="@+id/progress_dialog_loading_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    />
+
+    <TextView
+        android:id="@+id/progress_dialog_msg_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/settings_ffffff"
+        android:textSize="@dimen/text_size_38"
+        android:layout_marginLeft="@dimen/progress_dialog_text_marginLeft"
+        android:layout_toRightOf="@id/progress_dialog_loading_img" />
+
+</RelativeLayout><!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/custom_progress_dialog.xml -->

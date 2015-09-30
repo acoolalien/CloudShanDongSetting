@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    
+     
+    <LinearLayout 
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        
+        android:layout_marginTop="232dp"
+        >
+        <!--  
+        <RelativeLayout
+            android:id="@+id/layout1"
+            style="@style/layout_cycle_focus1"
+            
+            >
+            <RelativeLayout 
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:background="@drawable/cycle"
+                >   
+                <ImageView
+                android:id= "@+id/scene"
+                android:layout_width= "119dp"
+                android:layout_height= "119dp"
+                android:layout_alignParentTop ="true"
+                android:layout_centerHorizontal ="true"
+                android:layout_marginTop= "60dp"
+                android:src= "@drawable/model" />
+                <TextView
+                android:id= "@+id/scenetext"
+                android:layout_below= "@id/scene"
+                android:layout_marginBottom ="47dp"
+                android:layout_width= "wrap_content"
+                android:layout_centerHorizontal ="true"
+                android:layout_height= "wrap_content"
+                android:text= "@string/scene"
+                android:textSize ="32dp"
+                android:textColor= "@color/white"
+                />           
+            </RelativeLayout>          
+        </RelativeLayout>   
+        -->
+        <RelativeLayout
+            android:id="@+id/layout2"
+            style="@style/layout_cycle_focus1"
+            
+            >
+            <RelativeLayout 
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:background="@drawable/cycle">
+            <ImageView
+                android:id="@+id/network_image"
+                android:layout_width="119dp"
+                android:layout_height="119dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/wifi_network" />    
+            <TextView
+                android:id="@+id/network_setting"
+                android:layout_below="@id/network_image"
+                android:layout_marginBottom="47dp"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="@string/network_setting" 
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                />
+            </RelativeLayout>
+        </RelativeLayout>   
+        <RelativeLayout
+            android:id="@+id/layout3"
+            style="@style/layout_cycle_focus1"
+            >
+            <RelativeLayout 
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:background="@drawable/cycle">
+            <ImageView
+                android:id="@+id/other_image"
+                android:layout_width="119dp"
+                android:layout_height="119dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/other_setting" />
+            <TextView
+                android:id="@+id/other_setting"
+                android:layout_below="@id/other_image"
+                android:layout_marginBottom="47dp"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="@string/other_setting" 
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+        </RelativeLayout>
+       <RelativeLayout
+            android:id="@+id/layout4"
+            style="@style/layout_cycle_focus1"
+            >
+            <RelativeLayout 
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:background="@drawable/cycle"> 
+            <ImageView
+                android:id="@+id/about_image"
+                android:layout_width="119dp"
+                android:layout_height="119dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/about_domy" />
+            <TextView
+                android:id="@+id/about_domy"
+                android:layout_below="@id/about_image"
+                android:layout_marginBottom="47dp"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="@string/about_domy" 
+                android:textSize="32dp"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/activity_setting.xml -->

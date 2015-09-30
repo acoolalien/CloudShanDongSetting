@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bb000000" >
+
+    <RelativeLayout
+        android:id="@+id/shang"
+        android:layout_width="950dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/inputcode_1"
+            android:textColor="#ffffff"
+            android:textSize="27dp" />
+
+        <TextView
+            android:id="@+id/mm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="250dp"
+            android:textColor="#ffffff"
+            android:maxLength="6"
+            android:textSize="27dp"
+                     />
+
+        <View
+            android:layout_width="500dp"
+            android:layout_height="0.1dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:background="#484848" >
+        </View>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:id="@+id/xia"
+            android:layout_width="1150dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/shang"
+            android:layout_centerHorizontal="true" >
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/jianbian">
+        </View>
+
+        <ImageView
+            android:id="@+id/focus"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="510dp"
+            android:layout_marginTop="-15dp"
+            android:background="@drawable/focus_img" />
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="1000dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/v1"
+            android:layout_centerHorizontal="true"
+            android:focusable="true"
+            android:background="#00000000"
+            android:layout_marginTop="10dp" >
+        </Gallery>
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/gallery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/jianbian">
+        </View>
+
+        <TextView
+            android:id="@+id/wc"
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:textSize="27dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/v2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="400dp"
+            android:layout_marginTop="-20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/finish"
+            android:background="@drawable/gallery"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/sc"
+            android:layout_width="130dp"
+            android:layout_height="90dp"
+            android:textSize="27dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/v2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="510dp"
+            android:layout_marginTop="-20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/delete"
+            android:background="@drawable/gallery"
+            android:gravity="center"/>
+        
+         <TextView
+            android:id="@+id/yc"
+            android:layout_width="190dp"
+            android:layout_height="90dp"
+            android:textSize="27dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/v2"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="620dp"
+            android:layout_marginTop="-20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/modifycode"
+            android:background="@drawable/gallery"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/v2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/jianbian">
+        </View>
+    </RelativeLayout>
+
+</RelativeLayout> 

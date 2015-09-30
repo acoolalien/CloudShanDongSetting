@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout"  >
+
+        <ImageView
+            android:id="@+id/ethernet_dis_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/title_llyout_width"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/ethernet_dis_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/ethernet_dis_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ethernet_name"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ethernet_dis_notice"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/ethernet_dis_list"
+        android:layout_width="@dimen/listview_width"
+        android:layout_height="@dimen/listview_height"
+        android:layout_marginBottom="@dimen/listview_bottommargin"
+        android:layout_marginLeft="@dimen/listview_leftmargin"
+        android:layout_marginTop="@dimen/listview_topmargin"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="false"
+        android:divider="@drawable/under_line"
+        android:dividerHeight="1dip"
+        android:drawSelectorOnTop="false"
+        android:fadingEdge="none"
+        android:layoutAnimation="@anim/list_anim_layout"
+        android:focusable="true"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:scrollbarThumbVertical="@android:color/transparent" >
+    </ListView>
+    <com.shandong.cloudtv.settings.widget.LauncherFocusView
+        android:id="@+id/ethernet_disconnect_focus_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.shandong.cloudtv.settings.widget.LauncherFocusView>
+</LinearLayout>

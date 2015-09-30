@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+      <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout" >
+
+        <ImageView
+            android:id="@+id/ethernet_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/title_llyout_width"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/ethernet_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/ethernet_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/devloper_model"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enger_setting"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    
+    
+    <ListView
+        android:id="@+id/devloper_model_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|left"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/version_check_listview_marginleft"
+        android:layout_marginRight="@dimen/version_check_listview_marginright"
+        android:layout_marginTop="@dimen/version_check_listview_margintop"
+        android:divider="@drawable/longline"
+        android:layoutAnimation="@anim/list_anim_layout"
+        android:fadeScrollbars="false"
+        android:scrollbars="none"
+        android:listSelector="@drawable/list_selector_0"
+        android:focusable="true" />
+      <com.shandong.cloudtv.settings.widget.LauncherFocusView
+	    android:id="@+id/activity_devloper_focusview"
+	   	android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+	    />
+
+</RelativeLayout>

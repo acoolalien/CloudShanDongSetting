@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp" >
+
+    <TextView
+        android:id="@+id/textView_profiles_items_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="17dp"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        />
+
+     <TextView
+         android:id="@+id/textView_profiles_items_description"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView_profiles_items_name"
+         android:layout_below="@+id/textView_profiles_items_name"
+         android:ellipsize="end"
+         android:gravity="left|center_vertical"
+         android:singleLine="true"
+         android:textColor="#FFFFFFFF"
+         android:textSize="16dp"
+         android:textStyle="bold" />
+     
+     <ImageView
+        android:id="@+id/imageView_profiles_items_choice"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/settings_profiles_item_ns" />
+    
+</RelativeLayout>

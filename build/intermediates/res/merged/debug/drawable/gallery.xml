@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+      <item android:state_focused="true"  android:drawable="@drawable/focus_img" />
+      <item android:drawable="@drawable/app_store_top_all_update_focus_default" />
+
+</selector>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/drawable/gallery.xml -->

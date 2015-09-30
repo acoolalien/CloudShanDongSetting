@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView 
+        android:id="@+id/version_message2"
+       
+        android:layout_width="@dimen/version_update_textview_versionmessage_width"
+        android:layout_height="@dimen/version_update_textview_versionmessage_height"
+        android:focusable="true"	
+        android:fadeScrollbars="true"
+        android:scrollHorizontally="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="horizontal"
+        android:textSize="@dimen/text_size_38"
+        android:textColor="@color/grey5_color"
+        />
+
+</RelativeLayout>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/view_pager_2.xml -->

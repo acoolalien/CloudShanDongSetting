@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/check_network_main_llyout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout" >
+
+        <ImageView
+            android:id="@+id/check_network_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/title_llyout_width"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/check_network_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/check_network_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_network_title"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/check_network_title_notice"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/check_network_state_main_llyout"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:layout_marginLeft="122dip"
+        android:layout_marginTop="103dip"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/check_network_local"
+            android:layout_width="188dip"
+            android:layout_height="108dip"
+            android:layout_marginTop="7dip"
+            android:background="@drawable/check_network_local"
+            android:contentDescription="@string/app_name" />
+
+        <LinearLayout
+            android:id="@+id/check_network_local_router_llyout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="38dip"
+            android:layout_marginTop="53dip"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point00"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point01"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point31"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point51"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point61"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point71"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point81"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_marginLeft="0dip" >
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point90"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_unselected"
+                    android:contentDescription="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/check_network_local_router_point91"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/check_network_point_selected"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/check_network_router"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_marginLeft="28dip"
+            android:layout_marginTop="2dip"
+            android:background="@drawable/check_network_router_unselected"
+            android:contentDescription="@string/app_name" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/check_network_router_internet_llyout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="38dip"
+                android:layout_marginTop="53dip"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point00"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point01"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point31"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point41"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point51"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point61"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point71"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point81"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="24dip"
+                    android:layout_height="24dip"
+                    android:layout_marginLeft="0dip" >
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_unselected"
+                        android:contentDescription="@string/app_name" />
+
+                    <ImageView
+                        android:id="@+id/check_network_router_internet_point91"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/check_network_point_selected"
+                        android:contentDescription="@string/app_name"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/check_network_not_connect_img"
+                android:layout_width="33dip"
+                android:layout_height="33dip"
+                android:background="@drawable/check_network_not_connect"
+                android:layout_marginLeft="140dip"
+                android:layout_marginTop="50dip"
+                android:visibility="invisible"
+                android:contentDescription="@string/app_name" 
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/check_network_internet"
+            android:layout_width="126dip"
+            android:layout_height="125dip"
+            android:layout_marginLeft="28dip"
+            android:background="@drawable/check_network_internet_unselected"
+            android:contentDescription="@string/app_name" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/check_network_end_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dip"
+        android:visibility="invisible"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/check_network_connect_success"
+        android:textSize="@dimen/text_size_36" />
+
+</LinearLayout><!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/check_network_main.xml -->

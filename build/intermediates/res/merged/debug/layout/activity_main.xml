@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/settings_location_background" >
+
+    <Button
+        android:id="@+id/button_main_profiles"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="82dp"
+        android:gravity="center"
+        android:text="@string/textview_profiles_title" />
+
+    <Button
+        android:id="@+id/button_main_location"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_main_profiles"
+        android:layout_marginLeft="84dp"
+        android:layout_toRightOf="@+id/button_main_profiles"
+        android:gravity="center"
+        android:text="@string/textview_location_title" />
+
+</RelativeLayout><!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/activity_main.xml -->

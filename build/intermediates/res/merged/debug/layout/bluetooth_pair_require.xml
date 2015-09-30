@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="536dp"
+    android:layout_height="270dp"
+    android:background="@drawable/dialog_background"
+     >
+    <LinearLayout 
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal"
+        android:layout_marginLeft="230dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+   
+        <TextView android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/text_size_36"
+            android:text="@string/bluetooth_requir_pair"
+           
+            
+            ></TextView>
+    </LinearLayout>
+    <TextView 
+        android:id="@+id/message1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/line1"
+        android:textSize="@dimen/text_size_30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_requir_pair"
+        />
+    <TextView 
+        android:id="@+id/message2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="7dp"
+        android:textSize="@dimen/text_size_30"
+        android:layout_below="@+id/message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_requir_pair"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/editview1"
+        android:layout_below="@+id/message2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="230dp"
+        android:layout_width="400dp"
+        android:textSize="@dimen/text_size_30"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextforbluetooth"
+        android:textColor="@color/white"
+        android:singleLine="true"
+        android:visibility="gone"
+        ></EditText>
+ 
+    <LinearLayout 
+        android:layout_marginBottom="-35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="230dp"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:orientation="horizontal"
+        >
+        <Button 
+            android:id="@+id/button1"
+            android:background="@drawable/button_selector"
+            android:text="@string/enter"
+            android:textColor="@color/settings_ffffff"
+            android:textSize="@dimen/text_size_36"
+            android:layout_width="145dp"
+            android:layout_height="65dp"
+            android:visibility="visible"
+            ></Button>
+        <Button 
+            android:id="@+id/button2"
+            android:background="@drawable/button_selector"
+            android:text="@string/cancel"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/settings_ffffff"
+            android:textSize="@dimen/text_size_36"
+            android:layout_width="145dp"
+            android:layout_height="65dp"
+            android:visibility="visible"
+            ></Button>
+    </LinearLayout>
+    
+
+</RelativeLayout>
+<!-- From: file:/D:/androidspace/CloudShanDongSetting/res/layout/bluetooth_pair_require.xml -->

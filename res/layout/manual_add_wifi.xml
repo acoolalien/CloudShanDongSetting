@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/manual_add_wifi_main_llyout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/manual_add_wifi_width"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/manual_add_wifi_leftmargin"
+        android:layout_marginTop="@dimen/manual_add_wifi_topmargin"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/manual_wifi_name_rlyout"
+            android:layout_width="@dimen/manual_add_wifi_width"
+            android:layout_height="@dimen/manual_add_wifi_item_height"
+            android:focusable="true" >
+    		<!-- android:background="@drawable/list_item_selector" -->
+            <TextView
+                android:id="@+id/manual_wifi_name_titile"
+                android:layout_width="@dimen/manual_add_wifi_title_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/manual_add_wifi_title_leftmargin"
+                android:layout_marginTop="@dimen/manual_add_wifi_title_topmargin"
+                android:focusable="false"
+                android:text="@string/manual_wifi_name"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <EditText
+                android:id="@+id/manual_wifi_name_edit"
+                android:layout_width="@dimen/manual_add_wifi_edit_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/manual_wifi_name_titile"
+                android:layout_marginLeft="@dimen/manual_add_wifi_edit_leftmargin"
+                android:layout_marginTop="@dimen/manual_add_wifi_edit_topmargin"
+                android:layout_toRightOf="@id/manual_wifi_name_titile"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:focusable="false"
+                android:layout_marginRight="@dimen/manual_add_wifi_underline_rightmargin"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/manual_wifi_safe_rlyout"
+            android:layout_width="@dimen/manual_add_wifi_width"
+            android:layout_height="@dimen/manual_add_wifi_item_height"
+            android:layout_marginTop="@dimen/manual_add_wifi_item_topmargin"
+            android:focusable="true" >
+            <!-- android:background="@drawable/list_item_selector" -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/manual_add_wifi_title_leftmargin"
+                android:layout_marginTop="@dimen/manual_add_wifi_title_topmargin"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="@dimen/manual_add_wifi_title_width"
+                    android:layout_height="wrap_content"
+                    android:text="@string/manual_wifi_safe"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_38" />
+
+                <Button
+                    android:id="@+id/manual_wifi_leftarrow"
+                    android:layout_width="@dimen/manual_add_wifi_arrow_width"
+                    android:layout_height="@dimen/manual_add_wifi_arrow_height"
+                    android:layout_marginLeft="@dimen/manual_add_wifi_leftarrow_leftmargin"
+                    android:background="@drawable/left_arrow_selector"
+                    android:enabled="false"
+                    android:focusable="false" />
+
+                <TextView
+                    android:id="@+id/manual_wifi_security_text"
+                    android:layout_width="@dimen/manual_add_wifi_edit_width"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:gravity="center_horizontal|center"
+                    android:text="@string/manual_wifi_safe"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_size_38" />
+
+                <Button
+                    android:id="@+id/manual_wifi_rightarrow"
+                    android:layout_width="@dimen/manual_add_wifi_arrow_width"
+                    android:layout_height="@dimen/manual_add_wifi_arrow_height"
+                    android:background="@drawable/right_arrow_selector"
+                    android:enabled="false"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/manual_add_wifi_underline_rightmargin"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/manual_wifi_password_rlyout"
+            android:layout_width="@dimen/manual_add_wifi_width"
+            android:layout_height="@dimen/manual_add_wifi_item_height"
+            android:layout_marginTop="@dimen/manual_add_wifi_item_topmargin"
+            android:focusable="true" >
+   			 <!-- android:background="@drawable/list_item_selector" -->
+            <TextView
+                android:id="@+id/manual_wifi_password_titile"
+                android:layout_width="@dimen/manual_add_wifi_title_width"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/manual_add_wifi_title_leftmargin"
+                android:layout_marginTop="@dimen/manual_add_wifi_title_topmargin"
+                android:text="@string/manual_wifi_password"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <EditText
+                android:id="@+id/manual_wifi_password_edit"
+                android:layout_width="@dimen/manual_add_wifi_edit_width"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/manual_wifi_password_titile"
+                android:layout_marginLeft="@dimen/manual_add_wifi_edit_leftmargin"
+                android:layout_marginTop="@dimen/manual_add_wifi_edit_topmargin"
+                android:layout_toRightOf="@id/manual_wifi_password_titile"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:imeOptions="actionDone"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_38" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="@dimen/manual_add_wifi_underline_rightmargin"
+                android:focusable="false"
+                android:src="@drawable/under_line_2" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_horizontal"
+            android:focusable="true"
+            android:background="@drawable/pppoe_button_bg"
+            android:id="@+id/layout_manual_add_wifi_btn"
+            android:layout_marginTop="@dimen/pppoe_connect_btn_commit_topmargin" >
+
+            <TextView
+                android:id="@+id/pppoe_connect_ok_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"    
+                android:text="@string/manual_wifi_commit"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_38" />
+        </RelativeLayout>
+        <!--  
+        <LinearLayout
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginTop="@dimen/manual_add_wifi_commit_topmargin" >
+
+            <Button
+                android:id="@+id/manual_add_wifi_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/manual_wifi_commit"
+                android:textSize="@dimen/text_size_38"
+                android:textColor="@color/settings_ffffff"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+        -->
+    </LinearLayout>
+    <com.shandong.cloudtv.settings.widget.LauncherFocusView
+        android:id="@+id/manual_add_wifi_focus_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.shandong.cloudtv.settings.widget.LauncherFocusView>
+</LinearLayout>

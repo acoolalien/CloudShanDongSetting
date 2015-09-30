@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/version_message1"
+        
+        android:layout_width="@dimen/version_update_textview_versionmessage_width"
+        android:layout_height="@dimen/version_update_textview_versionmessage_height"
+        android:focusable="true"	
+        android:fadeScrollbars="true"
+        android:scrollHorizontally="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarStyle="outsideInset"
+        android:scrollbars="horizontal"
+        android:textSize="@dimen/text_size_38"
+        android:textColor="@color/grey5_color"
+        />
+
+</RelativeLayout>

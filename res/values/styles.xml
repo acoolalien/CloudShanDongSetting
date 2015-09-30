@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="layout_cycle_focus">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">280dp</item>
+        <item name="android:background">@drawable/cycle_style</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="layout_cycle_focus1">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">280dp</item>
+        
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="layout_cycle_focus_p">
+        <item name="android:src">@drawable/cycle_style</item>
+    </style>
+
+    <style name="noTitle">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="myTranslucent">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+         <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+    <style name="BasicDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layout_width">@dimen/dialog_width</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="@style/BasicDialog">
+        <item name="android:windowBackground">@drawable/dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomProgressNewDialog" parent="@style/BasicDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="BluetoothPairDialog" parent="@style/BasicDialog">
+        
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+
+  <style name="menu_popu_in_out_style">  
+        <item name="android:windowEnterAnimation">@anim/menu_popuwindow_in_anim</item>  
+        <item name="android:windowExitAnimation">@anim/menu_popuwindow_out_anim</item>  
+    </style> 
+</resources>

@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/inside_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/test_speed_title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout" >
+
+        <ImageView
+            android:id="@+id/test_speed_new_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="@dimen/test_speed_title_leftline_height"
+            android:contentDescription="@string/app_name"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:id="@+id/test_speed_new_title_llyout"
+            android:layout_width="@dimen/title_llyout_width"
+            android:layout_height="@dimen/test_speed_title_llyout_height"
+            android:layout_alignTop="@id/test_speed_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/test_speed_new_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/test_speed_title"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/speed_tips"
+                android:text="@string/test_speed_unit_converter"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/test_speed_new_under_line_up_llyout"
+        android:layout_width="@dimen/test_speed_new_under_line_lyout_width"
+        android:layout_height="@dimen/test_speed_new_under_line_lyout_height"
+        android:layout_marginLeft="@dimen/test_speed_new_under_line_leftmargin"
+        android:visibility="invisible" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/test_speed_under_line_new"
+            android:contentDescription="@string/app_name"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/test_speed_new_canvas_llyout"
+        android:layout_width="@dimen/test_speed_canvas_llyout_width"
+        android:layout_height="@dimen/test_speed_canvas_llyout_height"
+        android:layout_marginLeft="@dimen/test_speed_new_under_line_leftmargin"
+        android:layout_marginTop="@dimen/test_speed_canvas_llyout_topmargin" >
+
+        <ImageView
+            android:id="@+id/test_speed_new_canvas_img"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/test_speed_girdline_rlyout_width"
+        android:layout_height="@dimen/test_speed_girdline_rlyout_height"
+        android:layout_marginLeft="@dimen/test_speed_new_under_line_leftmargin"
+        android:layoutAnimation="@anim/list_anim_layout" >
+
+        <RelativeLayout
+            android:id="@+id/test_speed_new_underline_down_flyout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/test_speed_new_undlerline_point_height"
+            android:gravity="center_vertical|center" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/test_speed_new_under_line_lyout_height"
+                android:layout_marginTop="@dimen/test_speed_new_under_line_topmargin"
+                android:background="@drawable/test_speed_under_line_new"
+                android:contentDescription="@string/app_name"
+                android:focusable="false" />
+
+            <LinearLayout
+                android:id="@+id/test_speed_new_realspeed_point_llyout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/test_speed_new_underline_point_lyout_leftmargin"
+                android:gravity="center_vertical|center"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point1_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point2_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point3_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point4_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_point4_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point5_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_point5_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point6_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_point6_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point7_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_point7_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point8_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_point8_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_point9_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_point9_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/test_speed_new_pointa_rlyout"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1"
+                    android:visibility="invisible" >
+
+                    <ImageView
+                        android:layout_width="@dimen/test_speed_new_undlerline_point_width"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/test_speed_new_undlerline_pointa_leftmagin"
+                        android:background="@drawable/test_speed_point_new"
+                        android:contentDescription="@string/app_name" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/test_speed_new_realspeed_llyout"
+            android:layout_width="@dimen/test_speed_girdline_rlyout_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/test_speed_new_underline_down_flyout"
+            android:layout_marginLeft="@dimen/test_speed_realspeed_llyout_leftmargin"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout1"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv1_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv1"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv1"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv1_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv1"
+                    android:layout_below="@id/test_speed_new_realspeed_tv1"
+                    android:layout_marginLeft="5dip"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout2"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv2_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv2"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv2"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv2_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv2"
+                    android:layout_below="@id/test_speed_new_realspeed_tv2"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout3"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv3_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv3"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv3"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv3_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv3"
+                    android:layout_below="@id/test_speed_new_realspeed_tv3"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout4"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv4_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv4"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv4"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv4_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv4"
+                    android:layout_below="@id/test_speed_new_realspeed_tv4"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout5"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv5_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv5"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv5"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv5_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv5"
+                    android:layout_below="@id/test_speed_new_realspeed_tv5"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout6"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv6_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv6"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv6"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv6_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv6"
+                    android:layout_below="@id/test_speed_new_realspeed_tv6"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout7"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv7_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv7"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv7"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv7_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv7"
+                    android:layout_below="@id/test_speed_new_realspeed_tv7"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout8"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv8_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv8"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv8"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv8_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv8"
+                    android:layout_below="@id/test_speed_new_realspeed_tv8"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyout9"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv9_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tv9"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tv9"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tv9_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tv9"
+                    android:layout_below="@id/test_speed_new_realspeed_tv9"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/test_speed_new_realspeed_cur_rlyouta"
+                android:layout_width="@dimen/test_speed_realspeed_cur_rlyout_width"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tva"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_38" />
+                <!-- android:text="@string/test_speed_0" -->
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tva_decimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/test_speed_new_realspeed_tva"
+                    android:layout_toRightOf="@id/test_speed_new_realspeed_tva"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_30" />
+                <!-- android:text="@string/test_speed_00" -->
+
+                <TextView
+                    android:id="@+id/test_speed_new_realspeed_tva_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/test_speed_new_realspeed_tva"
+                    android:layout_below="@id/test_speed_new_realspeed_tva"
+                    android:gravity="left|center_vertical"
+                    android:textColor="@color/settings_ffffff"
+                    android:textSize="@dimen/text_size_24" />
+                <!-- android:text="@string/test_speed_bigm_unit" -->
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/test_speed_curspeed_llyout_width"
+        android:layout_height="@dimen/test_speed_curspeed_llyout_height"
+        android:layout_marginLeft="@dimen/test_speed_curspeed_llyout_leftmargin"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/test_speed_new_net_count_rlyout_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/test_speed_curspeed_rlyout_leftmargin" >
+
+            <TextView
+                android:id="@+id/test_speed_new_net_stars_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:text="@string/test_speed_net_stars"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30" />
+
+            <LinearLayout
+                android:id="@+id/test_speed_new_stars_llyout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/test_speed_new_net_stars_tv"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/test_speed_new_stars_img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/test_speed_star_unselected"
+                    android:contentDescription="@string/app_name"
+                    android:focusable="false" />
+
+                <ImageView
+                    android:id="@+id/test_speed_new_stars_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/test_speed_stars_img_leftmargin"
+                    android:background="@drawable/test_speed_star_unselected"
+                    android:contentDescription="@string/app_name"
+                    android:focusable="false" />
+
+                <ImageView
+                    android:id="@+id/test_speed_new_stars_img3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/test_speed_stars_img_leftmargin"
+                    android:background="@drawable/test_speed_star_unselected"
+                    android:contentDescription="@string/app_name"
+                    android:focusable="false" />
+
+                <ImageView
+                    android:id="@+id/test_speed_new_stars_img4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/test_speed_stars_img_leftmargin"
+                    android:background="@drawable/test_speed_star_unselected"
+                    android:contentDescription="@string/app_name"
+                    android:focusable="false" />
+
+                <ImageView
+                    android:id="@+id/test_speed_new_stars_img5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/test_speed_stars_img_leftmargin"
+                    android:background="@drawable/test_speed_star_unselected"
+                    android:contentDescription="@string/app_name"
+                    android:focusable="false" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="@dimen/test_speed_curspeed_rlyout_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="230dip" >
+
+            <TextView
+                android:id="@+id/test_speed_new_tv_level_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                android:singleLine="true"
+                android:text="@string/test_speed_tv_level"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30" />
+
+             <TextView
+                android:id="@+id/test_speed_new_tv_level_testing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/test_speed_new_tv_level_tv1"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@id/test_speed_new_tv_level_tv1"
+                android:gravity="center_vertical|center"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+                        
+            <TextView
+                android:id="@+id/test_speed_new_tv_level_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:layout_alignTop="@id/test_speed_new_tv_level_tv1"
+                android:layout_marginTop="5dip"
+                android:layout_toRightOf="@id/test_speed_new_tv_level_tv1"
+                android:gravity="center_vertical|center"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_36" 
+                android:visibility="invisible"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/test_speed_curspeed_llyout_width"
+        android:layout_height="@dimen/test_speed_curspeed_llyout_height"
+        android:layout_marginLeft="@dimen/test_speed_curspeed_llyout_leftmargin"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/test_speed_new_curspeed_rlyout"
+            android:layout_width="@dimen/test_speed_curspeed_rlyout_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/test_speed_curspeed_rlyout_leftmargin" >
+
+            <TextView
+                android:id="@+id/test_speed_new_curspeed_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_real_speed"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30" />
+
+             <TextView
+                android:id="@+id/test_speed_new_curspeed_testing"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_curspeed_tv"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_curspeed_tv"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+                        
+            <TextView
+                android:id="@+id/test_speed_new_curspeed_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_curspeed_tv"
+                android:layout_marginBottom="-5dip"
+                android:layout_toRightOf="@id/test_speed_new_curspeed_tv"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_0"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_48" 
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/test_speed_new_curspeed_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_curspeed_tv1"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_curspeed_tv1"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_00"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/test_speed_new_curspeed_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_curspeed_tv2"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_curspeed_tv2"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_bigm_unit"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_36"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/test_speed_new_average_rlyout"
+            android:layout_width="@dimen/test_speed_curspeed_rlyout_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dip" >
+
+            <TextView
+                android:id="@+id/test_speed_new_average_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_average_speed"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30" />
+
+              <TextView
+                android:id="@+id/test_speed_new_average_testing"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_average_tv"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_average_tv"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+                         
+            <TextView
+                android:id="@+id/test_speed_new_average_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_average_tv"
+                android:layout_marginBottom="-5dip"
+                android:layout_toRightOf="@id/test_speed_new_average_tv"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_48" 
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/test_speed_new_average_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_average_tv1"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_average_tv1"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_00"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/test_speed_new_average_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_average_tv2"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_average_tv2"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_bigm_unit"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_36"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/test_speed_new_broadband_rlyout"
+            android:layout_width="@dimen/test_speed_curspeed_rlyout_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dip" >
+
+            <TextView
+                android:id="@+id/test_speed_new_broadband_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_broadband_speed"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30" />
+
+             <TextView
+                android:id="@+id/test_speed_new_broadband_testing"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_broadband_tv"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_broadband_tv"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+                          
+            <TextView
+                android:id="@+id/test_speed_new_broadband_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_broadband_tv"
+                android:layout_marginBottom="-5dip"
+                android:layout_toRightOf="@id/test_speed_new_broadband_tv"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_testing_count"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_48"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/test_speed_new_broadband_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_broadband_tv1"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_broadband_tv1"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_00"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_30"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/test_speed_new_broadband_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignTop="@id/test_speed_new_broadband_tv2"
+                android:layout_marginBottom="0dip"
+                android:layout_toRightOf="@id/test_speed_new_broadband_tv2"
+                android:gravity="bottom|left"
+                android:text="@string/test_speed_littlem_unit"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_36"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/test_speed_btn_rlyout_width"
+        android:layout_height="@dimen/test_speed_btn_rlyout_heigth"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/test_speed_btn_rlyout_bottommargin" >
+
+        <Button
+            android:id="@+id/test_speed_new_begin_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_selector"
+            android:text="@string/test_speed_begin_test"
+            android:textColor="@color/settings_ffffff"
+            android:textSize="@dimen/text_size_48"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/test_speed_new_btn_progress_flyout"
+            android:layout_width="190dip"
+            android:layout_height="60dip"
+            android:layout_marginTop="@dimen/test_speed_btn_progress_flyout_topmargin"
+            android:layout_marginLeft="25dip"
+            android:visibility="gone" >
+			<!-- 
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/progress_bar_empty_new" >
+            </View>
+             -->
+            <ImageView
+                android:id="@+id/test_speed_new_progress_btn_full_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/test_speed_progress_btn_full_img_leftmargin"
+                android:layout_marginRight="@dimen/test_speed_progress_btn_full_img_rightmargin"
+                android:background="@drawable/progress_bar_full_new"
+                android:contentDescription="@string/app_name"
+                android:paddingBottom="@dimen/test_speed_progress_btn_full_img_bottompadding"
+                android:paddingTop="@dimen/test_speed_progress_btn_full_img_bottompadding" >
+            </ImageView>
+            <!-- android:layout_height="@dimen/test_speed_progress_btn_full_img_height" -->
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

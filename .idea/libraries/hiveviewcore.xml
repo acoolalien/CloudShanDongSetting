@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="hiveviewcore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/hiveviewcore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

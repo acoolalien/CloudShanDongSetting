@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <ImageView
+        android:id="@+id/imageview_profiles_title_feedback"
+        android:layout_width="6px"
+        android:layout_height="68px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="85px"
+        android:src="@drawable/settings_profiles_title_1" />
+    
+     <TextView
+        android:id="@+id/textView_profiles_title_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageview_profiles_title_feedback"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/imageview_profiles_title_feedback"
+        android:text="@string/problem_feedback"
+        android:textColor="@color/white"
+        android:textSize="40px" />
+     
+    <TextView
+        android:id="@+id/textView_profiles_title_discription_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_profiles_title_feedback"
+        android:layout_below="@+id/textView_profiles_title_feedback"
+        android:text="@string/problem_feedback_detal"
+        android:textSize="20px" 
+        android:textColor="#FF9A9A9A"/>
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="284dp"
+        android:layout_marginLeft="186dp"
+        android:layout_height="450dp"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="true"
+        >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        
+        android:orientation="vertical"
+        >
+        <RelativeLayout 
+            android:id="@+id/feedback_line1"
+            android:layout_width="971dp"
+            android:layout_height="71dp"
+            android:background="@drawable/list_item_selector"
+            android:focusable="true"
+            >
+            <TextView 
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback_problem"
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                />
+            
+            <ImageView 
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/feedback_arrow"
+                android:layout_marginRight="24dp"
+                
+                />
+            
+            <ImageView 
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/longline"
+                />
+            
+        </RelativeLayout>
+        <RelativeLayout 
+            android:id="@+id/edit_message"
+            android:layout_width="879dp"
+            android:layout_height="277dp"
+            android:background="@drawable/edit_item_selector"
+            android:focusable="true"
+            
+            >
+            <EditText 
+                android:id="@+id/edittext_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                />
+        </RelativeLayout>
+         <RelativeLayout
+            android:id="@+id/feedback_line2"
+            android:layout_width="971dp"
+            android:layout_height="71dp"
+            android:background="@drawable/list_item_selector"
+            android:focusable="true" 
+            >
+            <TextView 
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/feedback_message"
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                />
+            <TextView 
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/new_message"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/feedback_arrow"
+                />
+            <ImageView 
+                android:id="@+id/feedback_arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/feedback_arrow"
+                android:layout_marginRight="24dp"
+                />
+            
+            <ImageView 
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/longline"
+                />
+            
+            
+        </RelativeLayout> 
+        
+        <RelativeLayout 
+            android:id="@+id/text_message"
+            android:layout_width="879dp"
+            android:layout_height="277dp"
+            android:background="@drawable/edit_item_selector"
+            android:focusable="true"
+            
+            >
+            <TextView 
+                android:singleLine="false"
+                android:id="@+id/textview_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </RelativeLayout>
+        
+        
+        
+        
+    </LinearLayout>
+   </ScrollView>
+</RelativeLayout>

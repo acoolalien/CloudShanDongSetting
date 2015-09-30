@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inside_bg"
+    tools:context="${relativePackage}.${activityClass}" >
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_rlyout_height"
+        android:layout_marginLeft="@dimen/title_rlyout_leftmargin"
+        android:layout_marginTop="@dimen/title_rlyout_topmargin"
+        android:layoutAnimation="@anim/title_anim_layout" >
+
+        <ImageView
+            android:id="@+id/ethernet_left_line"
+            android:layout_width="@dimen/title_left_line_width"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:src="@drawable/left_line" />
+
+        <LinearLayout
+            android:layout_width="@dimen/title_llyout_width"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/ethernet_left_line"
+            android:layout_marginLeft="@dimen/title_llyout_leftmargin"
+            android:layout_toRightOf="@id/ethernet_left_line"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/version_update"
+                android:textColor="@color/settings_ffffff"
+                android:textSize="@dimen/text_size_60" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/need_to_update"
+                android:textColor="@color/settings_9a9a9a"
+                android:textSize="@dimen/text_size_30" />
+        </LinearLayout>
+    </RelativeLayout>
+
+   
+    
+    <ImageView 
+        android:id="@+id/update_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_marginLeft="@dimen/version_update_imageview_arrow_marginleft"
+        android:layout_marginBottom="@dimen/verison_update_imageview_arrow_marginbottom"
+        android:src="@drawable/update_left"
+        />
+    
+      <com.shandong.cloudtv.common.MyViewPager
+      android:id="@+id/vPager"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/version_update_myviewpager_height"
+      android:layout_below="@+id/now_version_message"
+      android:layout_alignLeft="@+id/textView_profiles_title_discription"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="@dimen/version_update_myviewpager_margintop"
+      android:focusable="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="@dimen/version_update_myviewpager_marginbottom"
+      />
+    
+      
+      <ImageView 
+        android:id="@+id/update_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/version_update_imageview_arrow_marginleft"
+        
+        android:layout_marginBottom="@dimen/verison_update_imageview_arrow_marginbottom"
+        android:src="@drawable/update_right"
+        />
+      
+      <Button 
+        android:id="@+id/update_button"
+        android:layout_width="@dimen/version_update_button_width"
+        android:layout_height="@dimen/version_update_button_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/version_update_marginbottom"
+        android:focusable="true"
+        android:textSize="@dimen/text_size_48"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:text="@string/update"
+        android:gravity="center"
+          />
+    
+    
+    
+    
+    
+    
+
+</RelativeLayout>
